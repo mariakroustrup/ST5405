@@ -13,12 +13,14 @@ mean(data1)
 
 %% variable
 s1=[0 34]
-s2 =[8.29,8.29]
+s2 =[8.29 8.29]
+
 %% plotter figur
 figure;
 bar(data1)
 hold on
-plot(s1,s2,'r')
+x = plot(s1,s2,'r','LineWidth',3)
+legend(x,'Gennemsnit')
 set(gca, 'XTickLabel',str, 'XTick',1:numel(str))
 set(gca,'XTickLabelRotation',45)
 title('Gennemsnitlig overbelægning på Aalborg Universitetshospitals afdelinger')
@@ -26,5 +28,5 @@ ylabel('Antal dage')
 ylim([0 25])
 set(gca, 'YTick', [0:1:25])
 xlim([0 34])
-%set(gca,'fontsize',20);
+set(gca,'fontsize',20);
 box off
