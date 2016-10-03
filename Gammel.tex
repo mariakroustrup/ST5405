@@ -1,0 +1,61 @@
+%implementing document formatting:
+\input{settings/preambleJose.tex}
+\input{settings/macros.tex}
+\begin{document}
+
+%||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+%|||||||				Example Inputs					 ||||||||
+%||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+%|||||||												 ||||||||
+%	\input{rapportAfsnit/zExamples/aFigureSample.tex}	%||||||||
+%	\input{rapportAfsnit/zExamples/bTableSample.tex}	%||||||||
+%	\input{rapportAfsnit/zExamples/cEquationSample.tex}	%||||||||
+%|||||||												 ||||||||
+%||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+%||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+%implementing front page:
+\input{contents/xFormaliteter/frontpage.tex}
+%clears one or two pages to make the document start on right hand side:
+\cleardoublepage
+
+%numbers the pages with Roman numeral - starts from "i":
+\frontmatter
+
+%implementing title sheet:
+\input{contents/xFormaliteter/titleSheet.tex} \cleardoublepage
+
+% FORORD OG LÆSEVEJLEDNING
+\input{contents/xFormaliteter/forord.tex} \cleardoublepage
+
+%the '*' allows the tableofcontents be excepted from the actual table of contents.
+\tableofcontents*
+\cleardoublepage
+
+%numbers the pages with Arabic numeral - starts from 1.
+\mainmatter
+
+%---------------------------INPUTS-------------------------------
+
+
+% INDLEDNING
+
+%\input{contents/aIndledning/aIndledning.tex}
+
+% PROBLEMANALYSE
+
+
+
+
+\urlstyle{same}
+
+\printbibliography
+\cleardoublepage
+
+% BILAG
+%\begin{appendices}
+
+%\end{appendices}
+
+\end{document}
