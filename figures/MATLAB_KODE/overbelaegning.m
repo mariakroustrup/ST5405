@@ -15,13 +15,13 @@ maxMAJ = max(MAJ)
 maxJUN = max(JUN)
 
 figure 
-stem(JANRand)
+stem(JANRand,'LineWidth',3)
 title('Antal dage med overbelægning for hele Danmark (randomiseret sample)')
 xlabel('Tilfældigt udvalgte hospitalsafdelinger fra hele Danmark')
 ylabel('Antal dage')
 ylim([0 33])
 set(gca, 'YTick', [0:2:33])
 xlim([0 50])
-set(gca, 'XTick', [0:2:50])
+set(gca, 'XTick', [0:5:50])
 set(gca,'fontsize',20);
 box off
