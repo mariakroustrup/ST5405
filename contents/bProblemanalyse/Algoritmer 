@@ -1,5 +1,0 @@
-\subsection{Typer af algoritmer}
-Når en algoritme designes til machine learning gøres dette på baggrund af et træningssæt. \cite{DIKU2010} Træningssættet tager udgangspunkt i en datamængde der enten har kendte eller ukendte labels. Hvis indholdet af de forskellige samples i datasættet har en kendt label er der tale om supervised learning, altså opsætning af en genkendelse hvor systemet guides i den ønskede retning. \cite{Brownlee2013} Dertil findes også unsupervised learning hvor indholdet af data samples ikke har nogen label. Ved unsupervised learning undersøges matematiske sammenhænge og tendenser. \cite{Brownlee2013}
-
-
-
