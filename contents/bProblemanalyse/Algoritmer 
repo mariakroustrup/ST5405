@@ -3,5 +3,5 @@ Når en algoritme designes til machine learning gøres dette på baggrund af et 
 
 Supervised learning forsøger først og fremmest at finde en model, hvor dataene afbilledes til labels. Det er vigtigt, at modellen afbilledes så korrekt som den kan, for både træningssættet og de nye data. En af grundene til at denne proces er vigtigt, er at den så kan generelisere, men samtidig kan blivere stærkere og godt rustet når der kommmer flere nye data ind. Machine learning er i princippet en algorimte, som arbejder ud fra hypoteser og generealisering af data. Desto flere data den har at arbejde med igennem tiden desto bedre bliver træningsættet også, hvilket resulterer i lav risiko få at spytte forkerte labels ud. På denne måde bliver træningssættet bedre, og algoritmen bliver bedre til at rubicere nye data.  
 
-Herefter kommer afgrænsning - enten neural, vector eller random forrest 
+Herefter kommer afgrænsning - enten neural, vector eller random forrest eller bootstrap metoden. 
 
