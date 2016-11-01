@@ -363,6 +363,9 @@ INPUT c:/texlive/2015/texmf-dist/fonts/vf/adobe/bookman/pbkl8t.vf
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/adobe/bookman/pbkl8r.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
+INPUT figures/Ortopaeddiagram.png
+INPUT ./figures/Ortopaeddiagram.png
+INPUT ./figures/Ortopaeddiagram.png
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
