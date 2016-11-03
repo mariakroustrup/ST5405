@@ -1,5 +1,13 @@
 \section{Mega nice overskrift}
 
-Det fremgår af AFSNIT\fxnote{ref til afsnit} at ortopædkirugisk afdeling på Aalborg Universitetshospital ikke fastholder en kapacitetsudnyttelse på $100$\%. Denne rapport vil undersøge, hvorvidt en prædiktiv model kan hjælpe afdelingen til at udnytte den eksisterende kapacitet. Dette forventes muligt ved en forudsigelse af patienternes indlæggelsesvarighed. 
+Det fremgår af AFSNIT\fxnote{ref til afsnit}, at ortopædkirugisk afdeling på Aalborg Universitetshospital ikke fastholder en kapacitetsudnyttelse på $100$\%. Denne rapport vil undersøge, hvorvidt en prædiktiv model kan hjælpe afdelingen til at udnytte den eksisterende kapacitet. Dette forventes muligt ved en forudsigelse af patienternes indlæggelsesvarighed. Aalborg universitetshospital har i et tidligere projekt indsamlet data fra $1.000$ hospitalsindlæggelser. Disse data inkluderer bl.a. blodprøveanalyser og knoglescanninger (DXA), hvilket formodes at kunne anvendes til udvikling af en prædiktiv model. 
 
-En prædiktiv model forsøger at forudsige hændelser baseret på eksisterende data.
+\noindent
+Prædiktiv modellering definerer en proces, hvor en model uadarbejdes med henblik på at forudsige hændelser. Denne model skal gøre det muligt at forstå og kvantificere nøjagtigheden af modellens forudsigelser ift fremtidig data.\cite{Kuhn2013} 
+Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop. Dette baseres på demografi, kost samt kliniske målinger fra patienten. Et andet eksempel herpå kan være en estimering af glukosemængden i blodet hos en diabetiker, hvilket baseres på det infrarøde absorptionsspektrum af patientens blod.\cite{Hastie2008}
+
+\noindent
+Prædiktiv modellering kan opdeles i de to kategorier parametrisk og ikke-parametrisk. Forskellen på disse to kategorier ses overordnet ved, hvorvidt antallet af parametre kan varieres eller ikke. I datasættet anvendt i projektet benyttes forskellige antal parametre for flere datapunkter og er derfor ikke-paramtetrisk.\cite{Sheskin2000}
+
+\noindent
+En prædiktiv model kan opbygges som en matematisk model eller en computerbaseret databehandlingsmodel (på engelsk: computational models). De matematiske modeller er mindre optimalt at avende ved ikke-parametriske datasæt, hvorfor projektet fremadrettet fokuserer på computerbaseret databehandling. 
