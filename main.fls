@@ -398,6 +398,8 @@ INPUT contents/bProblemanalyse/Problemformulering.tex
 INPUT contents/bProblemanalyse/Problemformulering.tex
 INPUT contents/eProblemloesning/praediktivModel.tex
 INPUT contents/eProblemloesning/praediktivModel.tex
+INPUT contents/eProblemloesning/databehandlingsmodel.tex
+INPUT contents/eProblemloesning/databehandlingsmodel.tex
 OUTPUT main.toc
 INPUT main.aux
 INPUT ./main.out

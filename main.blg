@@ -1,0 +1,10 @@
+[0] Config.pm:425> INFO - This is Biber 1.7
+[0] Config.pm:428> INFO - Logfile is 'main.blg'
+[62] biber-MSWIN:249> INFO - === %a %b %e, %Y, %H:%M:%S
+[62] Biber.pm:333> INFO - Reading 'main.bcf'
+[136] Utils.pm:169> WARN - Warning: Found biblatex control file version 2.9, expected version 2.5
+[137] Biber.pm:630> INFO - Found 23 citekeys in bib section 0
+[157] Biber.pm:2997> INFO - Processing section 0
+[174] Biber.pm:3134> INFO - Looking for bibtex format file 'bibliography/bibliography.bib' for section 0
+[188] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[201] bibtex.pm:786> INFO - Found BibTeX data source 'bibliography/bibliography.bib'
