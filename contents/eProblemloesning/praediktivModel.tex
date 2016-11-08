@@ -10,20 +10,20 @@ På baggrund af dette opstilles følgende hypotese:\\
 Indlæggelsesvarigheden for patienter kan benyttes til at effektivisere kapacitetsudnyttelsen. 
 %\end{itemize}
 
-\subsection{Datasæt}
-For dette projekt tages der udgangspunkt i et datasæt på ortopædkirurgisk afdeling på Aalborg Universitets hospital. Datasættet er indsamlet gennem digitale patientjournaler i for perioden: 1. August 2014 til 31. Oktober 2014. Datasættet er indsamlet på baggrund af en analyse af indlæggelsestid vha. biomarkører. Datasættet indeholder 970 registrerede patienter med informationen fordelt på 78 forskellige parametre. Da indsamlingen af data er sket på eksisterende data, og ikke på patientjournaler der er udarbejdet med henblik på indsamlingen af data, er der parametre for nogle patienter der ikke er udfyldte. Dermed er præprocessering af datasættet nødvendigt. Dette afsnit har til formål at analysere hvordan datasættet kan præ processeres med henblik på at anvende dette til at designe en prædiktiv model.
-
-\subsection{Prædiktiv model}
-For at forbedre kapacitetsudnyttelsen på ortopædkirurgisk afdelingen undersøges det, hvorvidt en prædiktiv model kan anvendes.
+\subsection{Forudsigelse af indlæggelsesvarigheden}
+For at forbedre kapacitetsudnyttelsen på ortopædkirurgisk afdelingen undersøges det, hvorvidt indlæggelsesvarigheden kan forudsiges.
 %Det fremgår af AFSNIT\fxnote{ref til afsnit}, at ortopædkirugisk afdeling på Aalborg Universitetshospital ikke fastholder en kapacitetsudnyttelse på $100$\%.\fxnote{snak sammen med Linette og Maria} 
-Dette forventes muligt ved en forudsigelse af patienternes indlæggelsesvarighed. Aalborg Universitetshospital har i et tidligere projekt indsamlet data fra $970$ hospitalsindlæggelser fra ortopædkirurgisk afdeling. Disse data inkluderer bl.a. blodprøveanalyser og knoglescanninger (DXA), hvilket formodes at kunne anvendes til udvikling af en prædiktiv model. 
+Aalborg Universitetshospital har i et tidligere projekt indsamlet data fra $970$ hospitalsindlæggelser fra ortopædkirurgisk afdeling. Datasættet er indsamlet gennem digitale patientjournaler i perioden 1. august til 31. oktober år 2014. Disse data er fordelt på 78 forskellige parametre. Flere af parametrene for patienterne er ikke ukendte, hvorfor præprocessering af datasættet anses nødvendigt. Ud fra parametrene fra datasættet vil indlæggelsesvarigheden forsøges estimeres. 
 
+
+\subsubsection{Prædiktiv model}
 \noindent
+Til at estimere indlæggelsesvarigheden for patienter kan en prædiktiv model anvendes.
 Prædiktiv modellering definerer en proces, hvor en model udarbejdes med henblik på at forudsige hændelser. Denne model skal gøre det muligt at forstå og kvantificere nøjagtigheden af modellens forudsigelser ift. fremtidig data.\cite{Kuhn2013} 
-Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop. Dette baseres på demografi, kost samt kliniske målinger. Et andet eksempel herpå kan være en estimering af glukosemængden i blodet hos en diabetiker, hvilket baseres på det infrarøde absorptionsspektrum af patientens blod.\cite{Hastie2008}
+Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}. %Et andet eksempel herpå kan være en estimering af glukosemængden i blodet hos en diabetiker, hvilket baseres på det infrarøde absorptionsspektrum af patientens blod.\cite{Hastie2008}
 
 \noindent
-Prædiktiv modellering kan opdeles i de to kategorier parametrisk og ikke-parametrisk. Forskellen på disse to kategorier ses overordnet ved om antallet af parametre kan varieres. I datasættet anvendt i projektet benyttes forskellige antal parametre for flere datapunkter og er derfor ikke-paramtetrisk.\cite{Sheskin2000}
+Prædiktiv modellering kan opdeles i de to kategorier parametrisk og ikke-parametrisk. Forskellen på disse to kategorier ses overordnet ved om antallet af parametre kan varieres. Da flere parametrene i datasættet ikke er ukendte benyttes der ikke-parametrisk modellering.\cite{Sheskin2000}
 
 \noindent
-En prædiktiv model kan opbygges som en matematisk model eller en computerbaseret databehandlingsmodel (på engelsk: computational models). De matematiske modeller er mindre optimale at avende ved ikke-parametriske datasæt\fxnote{uddyb lidt måske}. Af denne årsag fokuserer projektet fremadrettet på computerbaseret databehandling, da denne egner sig bedst til det tilgængelige ikke-parametriske datasæt.\cite{Sheskin2000} 
+En ikke-parametrisk model kan opbygges som en matematisk model eller en computerbaseret databehandlingsmodel (på engelsk: computational models). Matematiske modeller er mindre optimale at avende ved ikke-parametriske datasæt\fxnote{HVORFOR? Dette skal uddybes}. Af denne årsag fokuserer projektet fremadrettet på computerbaseret databehandling, da denne egner sig bedst til det tilgængelige ikke-parametriske datasæt\fxnote{HVORFOR? Dette skal uddybes}.\cite{Sheskin2000} 
