@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  14 NOV 2016 14:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  15 NOV 2016 10:25
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.tex"
@@ -1655,7 +1655,11 @@ Package biblatex Info: ... file 'danish.lbx' found.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\danish.lbx"
 File: danish.lbx 2012/08/02 v2.1 biblatex localization (PK/JW/AB)
 )
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.aux")
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.aux"
+
+LaTeX Warning: Label `dt' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -1670,8 +1674,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count439
 \scratchdimen=\dimen299
@@ -1817,7 +1820,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \c__siunitx_mathtt_int=\count447
 
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
-frontpage.tex" <figures/aaulogo-da.png, id=55, 122.4575pt x 76.285pt>
+frontpage.tex" <figures/aaulogo-da.png, id=59, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1920,7 +1923,7 @@ e/Kapacitetsudnyttelse.tex"
 
 LaTeX Warning: Citation 'Company2013' on page 3 undefined on input line 3.
 
-<figures/Kapacitetsudnyttelse.png, id=109, 647.41875pt x 369.38pt>
+<figures/Kapacitetsudnyttelse.png, id=114, 647.41875pt x 369.38pt>
 File: figures/Kapacitetsudnyttelse.png Graphic file (type png)
 
 <use figures/Kapacitetsudnyttelse.png>
@@ -1953,7 +1956,7 @@ LaTeX Warning: Citation 'Rasmussen2016' on page 4 undefined on input line 23.
 
 LaTeX Warning: Citation 'Noegletal2016' on page 4 undefined on input line 24.
 
-<figures/Ortopaeddiagram.png, id=120, 700.6175pt x 534.99875pt>
+<figures/Ortopaeddiagram.png, id=125, 700.6175pt x 534.99875pt>
 File: figures/Ortopaeddiagram.png Graphic file (type png)
 
 <use figures/Ortopaeddiagram.png>
@@ -1980,7 +1983,7 @@ LaTeX Warning: Citation 'RegionNord2016' on page 5 undefined on input line 49.
 
 LaTeX Warning: Reference `elektivvsakut' on page 5 undefined on input line 49.
 
-<figures/elektivvsakut.png, id=130, 511.9125pt x 297.36093pt>
+<figures/elektivvsakut.png, id=135, 511.9125pt x 297.36093pt>
 File: figures/elektivvsakut.png Graphic file (type png)
 
 <use figures/elektivvsakut.png>
@@ -2038,7 +2041,7 @@ e/Omfangafproblem.tex"
 
 LaTeX Warning: Citation 'SDS2015' on page 7 undefined on input line 2.
 
-<figures/maxminoverbelaeg.png, id=156, 1004.75375pt x 769.87625pt>
+<figures/maxminoverbelaeg.png, id=161, 1004.75375pt x 769.87625pt>
 File: figures/maxminoverbelaeg.png Graphic file (type png)
 
 <use figures/maxminoverbelaeg.png>
@@ -2063,7 +2066,7 @@ LaTeX Warning: Citation 'SDS2015' on page 8 undefined on input line 16.
 LaTeX Warning: Citation 'SDS2015' on page 8 undefined on input line 19.
 
 [8 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/maxminoverbel
-aeg.png>] <figures/antaldage.png, id=175, 1004.75375pt x 692.5875pt>
+aeg.png>] <figures/antaldage.png, id=180, 1004.75375pt x 692.5875pt>
 File: figures/antaldage.png Graphic file (type png)
 
 <use figures/antaldage.png>
@@ -2076,11 +2079,68 @@ LaTeX Warning: Citation 'SDS2015' on page 9 undefined on input line 26.
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
 e/Problemformulering.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/praediktivModel.tex" [9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST54
-05/figures/antaldage.png (PNG copy)>]
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
+e/machinelearning.tex"
 
-LaTeX Warning: Citation 'Bames2015' on page 10 undefined on input line 4.
+LaTeX Warning: Citation 'DIKU2010' on page 9 undefined on input line 2.
+
+[9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/antaldage.png
+ (PNG copy)>]
+
+LaTeX Warning: Citation 'DIKU2010' on page 10 undefined on input line 4.
+
+<figures/progvsml.png, id=190, 636.3775pt x 445.665pt>
+File: figures/progvsml.png Graphic file (type png)
+
+<use figures/progvsml.png>
+Package pdftex.def Info: figures/progvsml.png used on input line 8.
+(pdftex.def)             Requested size: 381.82944pt x 267.40106pt.
+
+
+LaTeX Warning: Citation 'DIKU2010' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Brownlee2013' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Brownlee2013' on page 10 undefined on input line 16.
+
+[10 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/progvsml.png
+>]
+
+LaTeX Warning: Citation 'DIKU2010' on page 11 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Barber2012' on page 11 undefined on input line 18.
+
+<figures/dt.png, id=199, 726.715pt x 573.14125pt>
+File: figures/dt.png Graphic file (type png)
+ <use figures/dt.png>
+Package pdftex.def Info: figures/dt.png used on input line 22.
+(pdftex.def)             Requested size: 290.68085pt x 229.25243pt.
+
+
+LaTeX Warning: Citation 'Saraswat2016' on page 11 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'DIKU2010' on page 11 undefined on input line 31.
+
+
+LaTeX Warning: Reference `neunet' on page 11 undefined on input line 31.
+
+[11 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/dt.png (PNG 
+copy)>] <figures/neunet.png, id=207, 326.21875pt x 285.065pt>
+File: figures/neunet.png Graphic file (type png)
+
+<use figures/neunet.png>
+Package pdftex.def Info: figures/neunet.png used on input line 35.
+(pdftex.def)             Requested size: 260.97534pt x 228.0523pt.
+)
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
+ng/praediktivModel.tex" [12 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5
+405/figures/neunet.png>]
+
+LaTeX Warning: Citation 'Bames2015' on page 13 undefined on input line 4.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
@@ -2088,64 +2148,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
  []
 
 
-LaTeX Warning: Citation 'Kuhn2013' on page 10 undefined on input line 22.
+LaTeX Warning: Citation 'Kuhn2013' on page 13 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'Hastie2008' on page 10 undefined on input line 23.
+LaTeX Warning: Citation 'Hastie2008' on page 13 undefined on input line 20.
 
-[10
+
+LaTeX Warning: Citation 'Sheskin2000' on page 13 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'MathWorks2016' on page 13 undefined on input line 22.
+
+[13
 
 ]
 
-LaTeX Warning: Citation 'Sheskin2000' on page 11 undefined on input line 26.
+LaTeX Warning: Citation 'Brownlee2013' on page 14 undefined on input line 28.
 
 
-Overfull \hbox (4.10597pt too wide) in paragraph at lines 25--27
-\T1/cmr/m/n/12 Prædiktiv mo-del-le-ring kan op-de-les i de to ka-te-go-ri-er pa
--ra-me-trisk og ikke-parametrisk.
- []
+LaTeX Warning: Citation 'Brownlee2013' on page 14 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Kuhn2013' on page 14 undefined on input line 28.
 
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
 ng/databehandlingsmodel.tex"
 
-LaTeX Warning: Citation 'DIKU2010' on page 11 undefined on input line 5.
+LaTeX Warning: Citation 'Saar2007' on page 14 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'Brownlee2013' on page 11 undefined on input line 8.
+LaTeX Warning: Citation 'Kuhn2013' on page 14 undefined on input line 30.
 
+[14]
 
-LaTeX Warning: Citation 'Brownlee2013' on page 11 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 11 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Saar2007' on page 11 undefined on input line 17.
-
-[11]
-
-LaTeX Warning: Citation 'Kuhn2013' on page 12 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 12 undefined on input line 31.
+LaTeX Warning: Citation 'Kuhn2013' on page 15 undefined on input line 32.
 
 )
 
-LaTeX Warning: Empty bibliography on input line 65.
+LaTeX Warning: Empty bibliography on input line 66.
 
-[12]
+[15] [16
+
+]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5F0B2DE80D74E0BC7547484C19FA7C40;916.
+(rerunfilecheck)             Checksum: 5740B60455337B6093E4C5FEA4FE4251;980.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2153,13 +2212,13 @@ Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 29156 strings out of 493921
- 517357 string characters out of 3144831
- 912815 words of memory out of 3000000
- 31945 multiletter control sequences out of 15000+200000
+ 29189 strings out of 493921
+ 518077 string characters out of 3144831
+ 913126 words of memory out of 3000000
+ 31963 multiletter control sequences out of 15000+200000
  36021 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,22n,78p,1886b,1283s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2185,9 +2244,9 @@ er/sfss1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
 sfti0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sft
 i1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb>
-Output written on main.pdf (16 pages, 556845 bytes).
+Output written on main.pdf (20 pages, 655152 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
