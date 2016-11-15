@@ -1,29 +1,30 @@
 %Computerbaserede databehandlingsmodeller varierer fra matematiske modeller, da databehandlingsmodellerne kan være vanskelige at opstille ligninger for. I stedet anvendes ofte simulering til at bestemme en forudsigelse. Denne metode kaldes ligeledes en "black box" prædiktiv model, da modellen ikke giver et indblik i, hvordan den kommer fra input til output. Det er ikke muligt at få et indblik, da der ikke anvendes en entydig formel eller matematisk model, men derimod en model, der kan tage højde for manglende data samt data uden lineær sammenhæng. Dermed vil det være relevant at anvende databehandlingsmodeller ud fra den tilgængelige data for dette projekt, da der ikke nødvendigvis er en direkte lineær sammenhæng mellem data og indlæggelsestid. Dertil er ikke alle parametre registrerede for alle individer i datasættet. \cite{Kuhn2013}
 
-\subsubsection{Supervised eller unsupervised learning}
-%For at opstille en anvendelig algoritme er det nødvendigt at have et træningssæt. 
-\cite{DIKU2010}. %Et træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte labels. 
+%\subsubsection{Supervised eller unsupervised learning}
+%For at opstille en anvendelig algoritme er det nødvendigt at have et træningssæt. \cite{DIKU2010}. %Et træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte labels. 
+%Det er nødvendig at udvælge et træningssæt for at kunne opstille en algoritme ud fra ønskede kriterier. Dette træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte outputs.
 
-Det er nødvendig at udvælge et træningssæt for at kunne opstille en algoritme ud fra ønskede kriterier. Dette træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte outputs.
-Systemets træningssæt er supervised, hvis input-output relationen er kendt, således det vides, hvilke parametre outputtet af systemet angives i. \cite{Brownlee2013} Modsat er unsupervised learning, hvor indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data.\cite{Brownlee2013, Kuhn2013} 
-
-Formålet med den prædiktive model i denne rapport er at forudsige indlæggelsesvarigheden. Da indlæggelsesvarigheden er en del af det tildelte datasæt, er det hensigtsmæssigt at anvende modeller, der er baseret på supervised learning. 
+%Systemets træningssæt er supervised, hvis input-output relationen er kendt, således det vides, hvilke parametre outputtet af systemet angives i. \cite{Brownlee2013} Modsat er unsupervised learning, hvor indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data.\cite{Brownlee2013, Kuhn2013} 
+%Formålet med den prædiktive model i denne rapport er at forudsige indlæggelsesvarigheden. Da indlæggelsesvarigheden er en del af det tildelte datasæt, er det hensigtsmæssigt at anvende modeller, der er baseret på supervised learning. 
 
 \subsection{Præprocessering}
 Indledning til det næste........bujagbgogfo
 %Ved anvendelse af supervised learning er det muligt at frasortere parametre, der ikke har en statistisk indvirkning på det prædefinerede output parameter. Det er dermed muligt at udarbejde en model, der ekskluderer unødvendig data, da noget data kan have en negativ indvirkning på prædiktionen af indlæggelsesvarigheden. Dermed arbejdes der fremadrettet med modeller, der tager udgangspunkt i supervised learning.
 
 \subsubsection{Generering af manglende data}
-Ved manglende data i et datasæt findes der forskellige tilgange der kan kompensere for dette. Med udgangspunkt i bogen \textit{Applied Predictie Modeling} vurderes det, hvordan data med manglende indhold i enkelte parametre behandles\cite{Saar2007}. Da det ikke er muligt at genskabe målingerne fra det originale datasæt anvendes imputering. 
+Hvis det ikke er muligt at genskabe målingerne fra det originale datasæt via XX, anvendes imputering. Der er forskellige former for imputering af data, herunder predicitve value imputation (PVI), Distribution-based Imputation(DBI) og Unique-value imputation. 
 
 
 
-
-En form for imputering er distribution-baseret imputation (DBI), er det med manglende værdier muligt at vægte datasæt med manglende parametre, således at disse har en mindre betydning end de resterende målinger i datasættet under genereringen af et træningssæt. 
-
+En metode er Distribution-baseret imputation (DBI), hvor de manglende parametre i datasættet vægtes mindre end det resterende data, således at disse får mindre betydning under generering af et træningsæt \cite{Saar2007}. 
 
 
-Årsagen til at de manglende parametre ikke udregnes vha. machine learning ud fra de resterende data, er, at de ikke nødvendigvis giver det rigtige udfald. F.eks. kan komorbiditeter være svære at bestemme, da datasættet ikke indeholder samtlige mulige komorbiditeter der findes. Dertil er det muligt at fjerne parametre fra hele træningssættet hvis hoveddelen af de registrerede patienter ikke har fået målt parameteren. Denne reduced feature model har flere fordele og ulemper som diskuteres i afsnit \ref{reduceringafparametre}. 
+
+%Ved manglende data i et datasæt findes der forskellige tilgange der kan kompensere for dette. Med udgangspunkt i bogen \textit{Applied Predictie Modeling} vurderes det, hvordan data med manglende indhold i enkelte parametre behandles\cite{Saar2007}. Da det ikke er muligt at genskabe målingerne fra det originale datasæt anvendes imputering. 
+
+%En form for imputering er distribution-baseret imputation (DBI), er det med manglende værdier muligt at vægte datasæt med manglende parametre, således at disse har en mindre betydning end de resterende målinger i datasættet under genereringen af et træningssæt. 
+
+%Årsagen til at de manglende parametre ikke udregnes vha. machine learning ud fra de resterende data, er, at de ikke nødvendigvis giver det rigtige udfald. F.eks. kan komorbiditeter være svære at bestemme, da datasættet ikke indeholder samtlige mulige komorbiditeter der findes. Dertil er det muligt at fjerne parametre fra hele træningssættet hvis hoveddelen af de registrerede patienter ikke har fået målt parameteren. Denne reduced feature model har flere fordele og ulemper som diskuteres i afsnit \ref{reduceringafparametre}. 
 
 \subsubsection{Reducering af parametre}\label{reduceringafparametre}
 Det kan være en fordel at fjerne enkelte parametre, hvis de er problematiske eller afviger fra de resterende data. Færre prædiktorer mindsker databehandlingstiden og kompleksiteten. Herudover kan kvaliteten af en prædiktiv model mindskes pga. problematiske variabler, der ikke indeholder information tilsvarende de resterende målepunkter.. Derved øges stabiliteten ved at fjerne disse problematiske variabler. Det kan eksempelvis skabe besvær ved lineær regression, da variablerne vil kunne forårsage fejl. Her vil data, der ikke indeholder nødvendig information kunne fjernes uden problemer.\cite{Kuhn2013}

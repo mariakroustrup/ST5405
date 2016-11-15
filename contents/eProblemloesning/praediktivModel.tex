@@ -17,15 +17,12 @@ Aalborg Universitetshospital har i et tidligere projekt indsamlet data fra $970$
 \noindent
 Til at estimere indlæggelsesvarigheden for patienter kan en prædiktiv model anvendes.
 Prædiktiv modellering definerer en proces, hvor en model udarbejdes med henblik på at forudsige hændelser. Denne model skal gøre det muligt at forstå og kvantificere nøjagtigheden af modellens forudsigelser ift. fremtidig data.\cite{Kuhn2013} Denne kvantificering sker på baggrund af algoritmer. 
-Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}. %Et andet eksempel herpå kan være en estimering af glukosemængden i blodet hos en diabetiker, hvilket baseres på det infrarøde absorptionsspektrum af patientens blod.\cite{Hastie2008}
-
-\fxnote{Der skal uddybes parametriske og ikke-parametriske samt matematisk og computerbaseret}
-Prædiktiv modellering kan opdeles i de to kategorier: parametrisk og ikke-parametrisk. Forskellen på disse to kategorier ses overordnet ved om antallet af parametre kan varieres samt, hvorvidt alle parametre er kendte. Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.\cite{Sheskin2000}
-Matematiske modeller:
-Computerbaseret modeller: 
+Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}. 
+Prædiktiv modellering kan opdeles i de to kategorier: parametrisk og ikke-parametrisk. Parametrisk anvendes når alle parametre er kendte, hvorimod ikke-parametriske benyttes, hvis én eller flere er ukendte. Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.\cite{Sheskin2000}
+Den prædiktiv model kan både anvende matematiske- og computerbaseret modeller. Matematiske modeller er en ligningsbaseret model, der forudsiger på baggrund af ændringer i input. Herunder anvendes ofte regression, hvor der tages udgangspunkt i en lineær sammenhæng. Computerbaseret modeller er modsat ikke baseret på ligninger, denne kræver ofte en simuleringsteknik til forudsigelse \cite{MathWorks2016}.
 
 
-\subsubsection{Supervised eller unsupervised learning}
+
 %For at opstille en anvendelig algoritme er det nødvendigt at have et træningssæt. \cite{DIKU2010}. %Et træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte labels. 
 %Det er nødvendig at udvælge et træningssæt for at kunne opstille en algoritme ud fra ønskede kriterier. Dette træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte outputs.
 Et træningssæt kan både være supervised eller unsupervised. Supervised learning er når indholdet af datasamples har til formål at forudsige en hændelse på baggrund af at input-output relationen er kendt \cite{Brownlee2013}. Unsupervised learning er når indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data.\cite{Brownlee2013, Kuhn2013} 
