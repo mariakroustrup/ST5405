@@ -4,31 +4,30 @@ Til at estimere indlæggelsesvarigheden for patienter kan en prædiktiv model an
 Prædiktiv modellering er en model der udarbejdes med henblik på at forudsige hændelser.  Denne model skal gøre det muligt at forstå og kvantificere nøjagtigheden af forudsigelsen ift. fremtidig data.\cite{Kuhn2013} Kvantificeringen sker på baggrund af algoritmer. 
 
 
-Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}. 
+Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}.  \\
 
-
-Prædiktiv modellering kan opdeles i de to kategorier: parametrisk og ikke-parametrisk. Parametrisk anvendes, når samtlige parametre er kendte, hvorimod ikke-parametriske benyttes, hvis én eller flere er ukendte. Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.\cite{Sheskin2000}
+\noindent
+Prædiktiv modellering kan opdeles i de to kategorier: parametrisk og ikke-parametrisk. Parametrisk anvendes, når samtlige parametre er kendte, hvorimod ikke-parametriske benyttes, hvis én eller flere er ukendte.\cite{Sheskin2000} %Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.\cite{Sheskin2000}
 
 
 Den prædiktiv model kan både anvende matematiske- og computerbaseret modeller. Matematiske modeller er en ligningsbaseret model, der forudsiger på baggrund af ændring i input. Herunder anvendes ofte regression, hvor der tages udgangspunkt i lineær sammenhæng. Computerbaseret modeller er modsat ikke baseret på ligninger, denne kræver ofte en simuleringsteknik til forudsigelse.\cite{MathWorks2016}
 
 
-Som tidligere nævnt sker kvantificering ud fra algoritmer. For at kunne udarbejde en algoritme kræves et træningssæt\cite{DIKU2010}. Et træningssæt kan både være supervised eller unsupervised. Supervised learning er når indholdet af datasamples har til formål at forudsige en hændelse på baggrund af den kendte input-output relation\cite{Brownlee2013}. Modsat er unsupervised learning, når indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data\cite{Brownlee2013, Kuhn2013}. Datasættet fra ortopædkirurgisk afdeling på Aalborg Universitetshospital indeholder både input-output relation, hvorfor der bør benyttes supervised learning. 
-
+Som tidligere nævnt sker kvantificering ud fra algoritmer. For at kunne udarbejde en algoritme kræves et træningssæt\cite{DIKU2010}. Et træningssæt kan både være supervised eller unsupervised. Supervised learning er når indholdet af datasamples har til formål at forudsige en hændelse på baggrund af den kendte input-output relation\cite{Brownlee2013}. Modsat er unsupervised learning, når indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data\cite{Brownlee2013, Kuhn2013}. %Datasættet fra ortopædkirurgisk afdeling på Aalborg Universitetshospital indeholder både input-output relation, hvorfor der bør benyttes supervised learning. 
+På baggrund af ovenstående er \figref{praediktiv} udarbejdet. Denne illustrerer de valg, der burde tages ift. prædiktive modeller.
 
 \begin{figure}[H]
-	\flushleft 
+	%\flushleft 
 	\centering
-	\includegraphics[scale=.65]{figures/praediktivmodel.png}
-	\flushleft
-	\caption{\textit{D}}
+	\includegraphics[scale=.5]{figures/praediktivmodel.png}
+	%\flushleft
+	\caption{\textit{Valg ift. prædiktiv modellering. De markerede felter illustrerer beslutningstagen.}}
 	\label{praediktiv}
 \end{figure}
 
-
-
-Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.
-
+\noindent 
+Det fremgår af \figref{praediktiv}, hvilke modeller der bør anvendes ud fra datasættet fra ortopædkirurgisk afdeling.
+Da flere af parametrene i datasættet ikke fremgår bør der anvendes ikke-parametrisk modellering. Datasættet består af flere parametre, hvilket medfører, at det ikke ses hensigtmæssigt at anvende ligningsbaseret modellering. Hertil kræves en simuleringsteknik, der anvendes under computerbaseret modellering. Der afgrænses til supervised learning, da datasættet indeholder input-output relation.
 
 
 \subsubsection{Præprocessering}
