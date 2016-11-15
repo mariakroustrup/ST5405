@@ -1,32 +1,14 @@
-\chapter{Problemløsning}
-På ortopædkirurgisk afdeling på Aalborg Universitetshospital ønskes der, på baggrund af afsnit \ref{kap}, en $100~\%$ kapacitetsudnyttelse med henblik på at udnytte de tilgængelige ressourcer optimalt. Kapacitetsudnyttelse er forholdet mellem aktivitet og kapacitet, hvoraf antal patienter er en betydende faktor ift. aktivitet. 
-Det fremgår af afsnit \ref{omfang}, at belægningsgraden på ortopædkirurgisk afdelingen er varierende for hver måned. Ved en belægning over $100~\%$ vil afdelingen opleve kapacitetsmangel, hvilket vil medføre, at personalet skal yde mere end afdelingen har kapacitet til. Derimod vil afdelingen ved en belægning under $100~\%$ forårsage, at der ikke er fuld udnyttelse af personalets arbejdskraft. Derved oplever ortopædkirurgisk afdeling en ubalance i kapacitetsudnyttelsen. 
-For at opnå en kapacitetsudnyttelse på $100~\%$, skal en ligevægt mellem aktivitet og kapacitet forekomme. Denne ligevægt kan tilnærmes ved at justere på én af faktorerene under aktivitet eller kapacitet\cite{Bames2015}. Det kan herunder forsøges at effektivere planlægningen af patienter og dertil forsøge at estimere indlæggelsesvarigheden for de indlagte patienter. 
-På baggrund af dette opstilles følgende hypotese:\\
-
-\noindent
-\textit{Indlæggelsesvarigheden for patienter kan benyttes til at effektivisere kapacitetsudnyttelsen.} 
-
-\section{Forudsigelse af indlæggelsesvarigheden}
-For at forbedre kapacitetsudnyttelsen på ortopædkirurgisk afdelingen undersøges det, hvorvidt indlæggelsesvarigheden kan forudsiges.
-%Det fremgår af AFSNIT\fxnote{ref til afsnit}, at ortopædkirugisk afdeling på Aalborg Universitetshospital ikke fastholder en kapacitetsudnyttelse på $100$\%.\fxnote{snak sammen med Linette og Maria} 
-Aalborg Universitetshospital har i et tidligere projekt indsamlet data fra $970$ hospitalsindlæggelser fra ortopædkirurgisk afdeling. Datasættet er indsamlet gennem digitale patientjournaler i perioden 1. august til 31. oktober år 2014. Disse data er fordelt på 78 forskellige parametre. Flere af parametrene for patienterne er ukendte, hvorfor præprocessering af datasættet anses nødvendigt. Ud fra parametrene i datasættet vil indlæggelsesvarigheden forsøges estimeres. 
-
-
-\subsubsection{Prædiktiv model}
+\subsection{Prædiktiv model}
 \noindent
 Til at estimere indlæggelsesvarigheden for patienter kan en prædiktiv model anvendes.
 Prædiktiv modellering definerer en proces, hvor en model udarbejdes med henblik på at forudsige hændelser. Denne model skal gøre det muligt at forstå og kvantificere nøjagtigheden af modellens forudsigelser ift. fremtidig data.\cite{Kuhn2013} Denne kvantificering sker på baggrund af algoritmer. 
 Inden for sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb ved anvendelse af disse modeller. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, kost samt kliniske målinger\cite{Hastie2008}. 
 Prædiktiv modellering kan opdeles i de to kategorier: parametrisk og ikke-parametrisk. Parametrisk anvendes når alle parametre er kendte, hvorimod ikke-parametriske benyttes, hvis én eller flere er ukendte. Da flere af parametrene i datasættet ikke er kendte bør der anvendes ikke-parametrisk modellering.\cite{Sheskin2000}
-Den prædiktiv model kan både anvende matematiske- og computerbaseret modeller. Matematiske modeller er en ligningsbaseret model, der forudsiger på baggrund af ændringer i input. Herunder anvendes ofte regression, hvor der tages udgangspunkt i en lineær sammenhæng. Computerbaseret modeller er modsat ikke baseret på ligninger, denne kræver ofte en simuleringsteknik til forudsigelse \cite{MathWorks2016}.
+Den prædiktiv model kan både anvende matematiske- og computerbaseret modeller. Matematiske modeller er en ligningsbaseret model, der forudsiger på baggrund af ændringer i input. Herunder anvendes ofte regression, hvor der tages udgangspunkt i en lineær sammenhæng. Computerbaseret modeller er modsat ikke baseret på ligninger, denne kræver ofte en simuleringsteknik til forudsigelse.\cite{MathWorks2016}
+Som tidligere nævnt sker kvantificering ud fra algoritmer. For at kunne udarbejde en algoritme kræves et træningssæt\cite{DIKU2010}. Et træningssæt kan både være supervised eller unsupervised. Supervised learning er når indholdet af datasamples har til formål at forudsige en hændelse på baggrund af den kendte input-output relation\cite{Brownlee2013}. Modsat er unsupervised learning er når indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data\cite{Brownlee2013, Kuhn2013}. Datasættet fra ortopædkirurgisk afdeling på Aalborg Universitetshospital indeholder både input-output relation, hvorfor der bør benyttes supervised learning. 
 
+\subsubsection{Præprocessering}
+Da flere parametre i datasættet fra ortopædkirurgisk afdeling på Aalborg Universitetshospital mangler, anses det nødvendigt at foretage præprocessering. Præproccering foregår manuelt før en prædiktiv modellering kan foretages.
+Der findes flere metoder, der kan anvendes for at kompensere for de manglende parametre. Kompenseringen kan forekomme ved kassering af værdier, tilegne manglende værdier, reducering af værdier og imputering. Imputering opdeles i 3 underkategorier: Prædiktiv værdi imputation, Distribution-baserede imputation og Unik-værdi imputation. Prædiktiv værdi imputation erstatter den manglende værdi med estimerede værdier. Distribution-baserede imputation vægter værdien af manglede data mindre end det resterende, således disse får en mindre betydning under generering af et træningsæt. Unik-værdi imputation  erstatter den manglede værdi med en vilkårlig værdi fra samme parameter.\cite{Saar2007} 
 
-
-%For at opstille en anvendelig algoritme er det nødvendigt at have et træningssæt. \cite{DIKU2010}. %Et træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte labels. 
-%Det er nødvendig at udvælge et træningssæt for at kunne opstille en algoritme ud fra ønskede kriterier. Dette træningssæt tager udgangspunkt i en datamængde, der enten har kendte eller ukendte outputs.
-Et træningssæt kan både være supervised eller unsupervised. Supervised learning er når indholdet af datasamples har til formål at forudsige en hændelse på baggrund af at input-output relationen er kendt \cite{Brownlee2013}. Unsupervised learning er når indholdet af datasamples ikke har til formål at prædiktere en hændelse, men derimod finde en sammenhæng mellem data.\cite{Brownlee2013, Kuhn2013} 
-
-\textit{Lav en afslutning}
-, der er baseret på supervised learning. 
 
