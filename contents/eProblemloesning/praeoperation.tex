@@ -1,0 +1,23 @@
+\section{Præ-operations model}  \fxnote{denne er ikke rettet}
+Dette afsnit har til formål at belyse de overvejelser og beslutninger, der bør træffes forud for designet af en prædiktiv model. Afsnittet fokuserer på dataen, der bruges til at opbygge og vedligeholde et træningssæt.
+
+
+\subsection{Hvad er formålet med den prædiktive model?}
+Formålet med at konstruere en prædiktiv model er at bestemme indlæggelsesvarigheden for patienter med en acceptabel procentvis afvigelse. Modellen er et redskab til sundhedspersonalet, der skal vurdere indlæggelsesvarigheden når en operation planlægges og gennemføres. Den prædiktive model bør udarbejdes, da kapacitetsproblemer kan medføre en ubalance mellem kapacitet og aktivitet, som nævnt i afsnit \ref{kap}. Det anses vigtigt at brugen af modellen, indsamlingen og indtastningen af data ikke er tidskrævende. Hvis dette er tilfældet vil det angiveligt have en indflydelse på personalets arbejdsopgaver, hvorfor problemet om ønsket effektivisering af kapacitetsudnyttelse ikke vil blive afhjulpet.
+
+
+\subsection{Præcision af data}
+...Her skal et afsnit ind....
+
+
+\subsection{Indsamling af data}
+Den prædiktiv model skal designes specifikt til ortopædkirurgisk afdeling på Aalborg Universitetshospital, da der er bestemte parametre som f.eks. operationer, procedurer, udstyr, personale og medicinering. For at sikre, at indsamling af data er tilstrækkelig og relevant skal der opstilles stramme retningslinjer for, hvordan disse indsamles og noteres. På baggrund af afgrænsningen til supervised learning i afsnit \ref{prae_model}, anses det nødvendigt, at hver indsamlede parameter har indflydelse på outputtet. Disse overvejelser øger sandsynligheden for at opnå en brugbar prædiktiv model. 
+
+
+\subsection{Vurdering af parametre}
+Antallet af parametre vurderes grundlæggende ud fra parametrenes betydning for bestemmelse af indlæggelsesvarigheden. Antallet af parametre i en prædiktiv model har indflydelse på størrelsen af computer og server. En prædiktiv model med mange parametre kræver mere computerkraft. Flere parametre og mængden af data øger databehandlingstiden samtidig med, at modellen optager mere hukommelse i den anvendte computer.\cite{Kuhn2013}
+Hvis computerkraft og budget ikke er den afgørende begrænsning i konstruktionen af en prædiktiv model, er det fordelagtigt at anvende så mange parametre som muligt for således at opnå en bedre estimering af indlæggelsesvarigheden.
+
+
+\subsubsection{Objektive- og subjektive parametre}
+Da parametre kan angives som objektive og subjektive er det nødvendigt at finde en kvantificerbar skala til notering af parametrene. Objektive parametre som køn, alder og blodtryk angives med en direkte værdi. Subjektive parametre, som fysisk aktivitet og livsstil eksempelvis rygning, der oplyses af patienten. Der bør ved arbejde med subjektive parametre være opmærksom på, at disse er patientens egne holdninger og derfor ikke nødvendigvis fakta. 
