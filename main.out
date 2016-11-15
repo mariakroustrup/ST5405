@@ -8,7 +8,7 @@
 \BOOKMARK [2][-]{subsection.2.2.2}{Patientsikkerhed}{section.2.2}% 8
 \BOOKMARK [1][-]{section.2.3}{Bel\346gningsgrad p\345 ortop\346dkirurgisk afdeling}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.3.1}{Problemformulering}{section.2.3}% 10
-\BOOKMARK [1][-]{section.2.4}{Machine learning}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Probleml\370sning}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Forudsigelse af indl\346ggelsesvarigheden}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.1.1}{Pr\346processering}{section.3.1}% 14
+\BOOKMARK [0][-]{chapter.3}{Probleml\370sning}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Forudsigelse af indl\346ggelsesvarigheden}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.1.1}{Hvorfor vi vil forudsige indl\346ggelsesvarigheden}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.2}{Pr\346diktiv model}{section.3.1}% 14
