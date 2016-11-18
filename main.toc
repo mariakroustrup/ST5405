@@ -18,15 +18,16 @@
 \contentsline {section}{\numberline {3.1}Forudsigelse af indl\IeC {\ae }ggelsesvarigheden}{11}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\ae }diktiv model}{12}{subsection.3.1.1}
 \contentsline {subsubsection}{Pr\IeC {\ae }processering}{13}{section*.3}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }-operations model}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Hvad er form\IeC {\r a}let med den pr\IeC {\ae }diktive model?}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\ae }cision af data}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Indsamling af data}{14}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Vurdering af parametre}{14}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.2}Forudsigelse f\IeC {\o }r operation}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\ae }cision af data}{13}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Indsamling af data}{14}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Vurdering af parametre}{14}{subsection.3.2.3}
 \contentsline {subsubsection}{Objektive- og subjektive parametre}{14}{section*.4}
-\contentsline {subsection}{\numberline {3.2.5}Eksklusionskriterier for data}{15}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.4}Eksklusionskriterier for data}{15}{subsection.3.2.4}
 \contentsline {subsubsection}{Kategorisering af data}{15}{section*.5}
-\contentsline {subsection}{\numberline {3.2.6}Opdatering af model}{15}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Parametres indflydelse p\IeC {\r a} indl\IeC {\ae }ggelsesvarigheden}{15}{subsection.3.2.7}
-\contentsline {subsubsection}{Parametre}{16}{section*.6}
+\contentsline {subsection}{\numberline {3.2.5}Opdatering af model}{15}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Parametres indflydelse p\IeC {\r a} indl\IeC {\ae }ggelsesvarigheden}{15}{subsection.3.2.6}
+\contentsline {subsubsection}{Parametre}{15}{section*.6}
 \contentsline {subsubsection}{Ressourcer}{16}{section*.7}
+\contentsline {subsection}{\numberline {3.2.7}Forudsigelse postoperativt}{16}{subsection.3.2.7}
+\contentsline {subsubsection}{Komplikationer under og efter operation}{16}{section*.8}
