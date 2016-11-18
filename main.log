@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  18 NOV 2016 14:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  18 NOV 2016 14:33
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.tex"
@@ -1817,7 +1817,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \c__siunitx_mathtt_int=\count447
 
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
-frontpage.tex" <figures/aaulogo-da.png, id=83, 122.4575pt x 76.285pt>
+frontpage.tex" <figures/aaulogo-da.png, id=87, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1920,7 +1920,7 @@ e/Kapacitetsudnyttelse.tex"
 
 LaTeX Warning: Citation 'Company2013' on page 3 undefined on input line 3.
 
-<figures/Kapacitetsudnyttelse.png, id=146, 647.41875pt x 369.38pt>
+<figures/Kapacitetsudnyttelse.png, id=149, 647.41875pt x 369.38pt>
 File: figures/Kapacitetsudnyttelse.png Graphic file (type png)
 
 <use figures/Kapacitetsudnyttelse.png>
@@ -1953,7 +1953,7 @@ LaTeX Warning: Citation 'Rasmussen2016' on page 4 undefined on input line 23.
 
 LaTeX Warning: Citation 'Noegletal2016' on page 4 undefined on input line 24.
 
-<figures/Ortopaeddiagram.png, id=157, 700.6175pt x 534.99875pt>
+<figures/Ortopaeddiagram.png, id=160, 700.6175pt x 534.99875pt>
 File: figures/Ortopaeddiagram.png Graphic file (type png)
 
 <use figures/Ortopaeddiagram.png>
@@ -1980,7 +1980,7 @@ LaTeX Warning: Citation 'RegionNord2016' on page 5 undefined on input line 49.
 
 LaTeX Warning: Reference `elektivvsakut' on page 5 undefined on input line 49.
 
-<figures/elektivvsakut.png, id=167, 511.9125pt x 297.36093pt>
+<figures/elektivvsakut.png, id=170, 511.9125pt x 297.36093pt>
 File: figures/elektivvsakut.png Graphic file (type png)
 
 <use figures/elektivvsakut.png>
@@ -2038,7 +2038,7 @@ e/Omfangafproblem.tex"
 
 LaTeX Warning: Citation 'SDS2015' on page 7 undefined on input line 2.
 
-[7] <figures/maxminoverbelaeg.png, id=200, 1004.75375pt x 769.87625pt>
+[7] <figures/maxminoverbelaeg.png, id=203, 1004.75375pt x 769.87625pt>
 File: figures/maxminoverbelaeg.png Graphic file (type png)
 
 <use figures/maxminoverbelaeg.png>
@@ -2063,7 +2063,7 @@ aeg.png>]
 
 LaTeX Warning: Citation 'SDS2015' on page 9 undefined on input line 19.
 
-<figures/antaldage.png, id=211, 1004.75375pt x 692.5875pt>
+<figures/antaldage.png, id=214, 1004.75375pt x 692.5875pt>
 File: figures/antaldage.png Graphic file (type png)
 
 <use figures/antaldage.png>
@@ -2134,7 +2134,7 @@ LaTeX Warning: Citation 'Brownlee2013' on page 12 undefined on input line 16.
 
 LaTeX Warning: Citation 'Kuhn2013' on page 12 undefined on input line 16.
 
-<figures/praediktivmodel.png, id=231, 600.2425pt x 188.705pt>
+<figures/praediktivmodel.png, id=234, 600.2425pt x 188.705pt>
 File: figures/praediktivmodel.png Graphic file (type png)
 
 <use figures/praediktivmodel.png>
@@ -2192,15 +2192,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1BE413BBED004F7B554F825EB3511563;1566.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 66235B21524AAD5E8FD1E45B4E6F525B;1485
-(rerunfilecheck)             After:  1BE413BBED004F7B554F825EB3511563;1566.
 
 LaTeX Warning: There were undefined references.
 
@@ -2213,10 +2207,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 29194 strings out of 493921
- 518391 string characters out of 3144831
+ 29195 strings out of 493921
+ 518409 string characters out of 3144831
  912019 words of memory out of 3000000
- 31961 multiletter control sequences out of 15000+200000
+ 31962 multiletter control sequences out of 15000+200000
  36021 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,22n,78p,1886b,1283s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2242,9 +2236,9 @@ er/sfss1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
 sfti0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sft
 i1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb>
-Output written on main.pdf (20 pages, 584750 bytes).
+Output written on main.pdf (20 pages, 584991 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
+ 349 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
