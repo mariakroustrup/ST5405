@@ -37,7 +37,6 @@ Da parametre kan angives som objektive og subjektive er det nødvendigt at finde
 For at udarbejde en prædiktiv model opstilles kriterier ift. dataindsamling ud fra formålet med modellen. Da nogle modeller er sensitive for strømlinet data er det vigtigt at bestemme, hvorvidt der skal opstilles eksklusionskriterier til dataindsamlingen eller om en forudbestemt prædiktiv model skal anvendes.\cite{Kuhn2013}
 For at systemet kan sammenholde parametre er det nødvendigt, at data er indskrevet efter faste retningslinjer. Hvis der ikke opstilles faste retningslinjer for indskrevet data, kan dette have indflydelse på estimeringen af indlæggelsesvarigheden.\cite{Kuhn2013} 
 
-
 \subsubsection{Kategorisering af data}
 Ved at kategorisere data, anses det derfor muligt at lave en prædiktiv model med en mindre mængde data. Denne model er dog ikke så specifik som en model uden kategoriseret data, da en mulig variation i parametrene kan reduceres.\cite{Rowan2007} 
 Derfor bør det overvejes, hvor stor datamængden skal være for at konstruere modellens træningssæt. Ved ikke at kategorisere data, bliver modellen mere specifik ift. hver enkelt patient, men kræver dertil også en større database for at lave en funktionel model. Dette kan f.eks. inkludere meget specifikke kirurgiske indgreb eller sjældne komorbiditeter. 
@@ -47,8 +46,19 @@ Et eksempel på kategorisering af data kan være alder, hvor denne kan inddeles 
 En vigtig del af en prædiktiv model er, at denne kan tilpasse ændringer i parametres vægtning løbende ved ny data.\cite{Kuhn2013} Ved ændring i medicinering eller procedure af kirurgiske indgreb kan prædiktering af det gældende indgreb give misvisende estimateringer af indlæggelsesvarigheden. Derfor kan modellen ved transitioner mellem procedureændringer blive invalideret og dermed skal den prædiktive model have inkorporeret mere data før denne kan forudsige indlæggelsesvarigheden. 
 Hvis et datapunkt ikke kan kategoriseres i systemet, kan det være nødsaget at ekskludere denne data fra indskrivelse i databasen.
 
-\subsection{Parametre der har indflydelse på indlæggelsesvarigheden}
+\subsection{Parametre der har forbindelse til indlæggelsesvarigheden}
+Hensigten med dette afsnit er at belyse, hvilke parametre lægen vurderer indlæggelsesvarigheden ud fra før en operation. Herunder er det opdelt i parametre og ressourcer. Ressourcer er ift. tilgængelige sengepladser samt kirurger. 
+
 
 \subsubsection{Parametre}
+Dette afsnit baseres primært ud fra interviewet på ortopædkirurgisk afdeling på Aalborg universitetshospital. 
+
+
+Hvilke parametre før en operation kan have indflydelse på varigheden af indlæggelsen? Er der nogle parametre som lægerne vægter højere end andre i estimeringen? 
+
+
+Derudover vil vi via. litteratur, grafer og statistiske analyser understøtte ovenstående. Vi har på nuværende tidspunkt fundet frem til, at operationstypen, patienttypen (akut/elektiv), alder,  kombination af parametre og komorbiditeter har indflydelse. Hertil har vi også fundet ud af parametre som det ikke er påvist har en indflydelse på indlæggelsesvarigheden.
+
 
 \subsubsection{Ressourcer}
+I dette afsnit vil vi gerne analysere på, hvorledes faktorer såsom ledige sengepladser og kirurger kan have indflydelse på patienters indlæggelsesvarighed. Ved begrænset sengepladser og kirurger vil patienters operationer eventuelt udskydes. 
