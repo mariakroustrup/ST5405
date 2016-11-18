@@ -1,13 +1,23 @@
-\section{Præ-operations model}  \fxnote{denne er ikke rettet}
-Dette afsnit har til formål at belyse de overvejelser og beslutninger, der bør træffes forud for designet af en prædiktiv model. Afsnittet fokuserer på dataen, der bruges til at opbygge og vedligeholde et træningssæt.
-
+\section{Præ-operations model} 
+*****Der mangler en indledning til dette afsnit.*****
 
 \subsection{Hvad er formålet med den prædiktive model?}
 Formålet med at konstruere en prædiktiv model er at bestemme indlæggelsesvarigheden for patienter med en acceptabel procentvis afvigelse. Modellen er et redskab til sundhedspersonalet, der skal vurdere indlæggelsesvarigheden når en operation planlægges og gennemføres. Den prædiktive model bør udarbejdes, da kapacitetsproblemer kan medføre en ubalance mellem kapacitet og aktivitet, som nævnt i afsnit \ref{kap}. Det anses vigtigt at brugen af modellen, indsamlingen og indtastningen af data ikke er tidskrævende. Hvis dette er tilfældet vil det angiveligt have en indflydelse på personalets arbejdsopgaver, hvorfor problemet om ønsket effektivisering af kapacitetsudnyttelse ikke vil blive afhjulpet.
 
-
 \subsection{Præcision af data}
-...Her skal et afsnit ind....
+*****Dette afsnit er ikke færdigt endnu. Der er er i stedet skreves vores tanker ift. opbygning afsnittet.*****
+Præcisionen skal vurderes på baggrund af, at patienter indlagt på ortopædkirurgisk afdeling. Den gennemsnitlige indlæggelsesvarighed er 9 dage (Median 6). 
+
+Dette betyder enten, at modellens præcision skal være høj eller, at modellen kun bør anvendes til patienter med en forventet indlæggelsesvarighed over gennemsnittet.
+Et estimat på 1-2 dage vurderes at være et rimeligt estimat af præcisionen af modellen.
+
+Lavere præcision vil resultere i en høj fejlrate relativt til den gennemsnitlige indlæggelsesvarighed.
+
+
+Modellen bør have et bedre estimat af indlæggelsesvarigheden end lægens/kirurgens estimat for at være et brugbart værktøj. 
+
+
+Det er lige så stort belæg for at finde et estimat af indlæggelsesvarigheden for akutte, såvel som elektive patienter. (Disse har lige lang gennemsnitlig indlæggelsestid)
 
 
 \subsection{Indsamling af data}
@@ -21,3 +31,24 @@ Hvis computerkraft og budget ikke er den afgørende begrænsning i konstruktione
 
 \subsubsection{Objektive- og subjektive parametre}
 Da parametre kan angives som objektive og subjektive er det nødvendigt at finde en kvantificerbar skala til notering af parametrene. Objektive parametre som køn, alder og blodtryk angives med en direkte værdi. Subjektive parametre, som fysisk aktivitet og livsstil eksempelvis rygning, der oplyses af patienten. Der bør ved arbejde med subjektive parametre være opmærksom på, at disse er patientens egne holdninger og derfor ikke nødvendigvis fakta. 
+
+
+\subsection{Eksklusionskriterier for data} 
+For at udarbejde en prædiktiv model opstilles kriterier ift. dataindsamling ud fra formålet med modellen. Da nogle modeller er sensitive for strømlinet data er det vigtigt at bestemme, hvorvidt der skal opstilles eksklusionskriterier til dataindsamlingen eller om en forudbestemt prædiktiv model skal anvendes.\cite{Kuhn2013}
+For at systemet kan sammenholde parametre er det nødvendigt, at data er indskrevet efter faste retningslinjer. Hvis der ikke opstilles faste retningslinjer for indskrevet data, kan dette have indflydelse på estimeringen af indlæggelsesvarigheden.\cite{Kuhn2013} 
+
+
+\subsubsection{Kategorisering af data}
+Ved at kategorisere data, anses det derfor muligt at lave en prædiktiv model med en mindre mængde data. Denne model er dog ikke så specifik som en model uden kategoriseret data, da en mulig variation i parametrene kan reduceres.\cite{Rowan2007} 
+Derfor bør det overvejes, hvor stor datamængden skal være for at konstruere modellens træningssæt. Ved ikke at kategorisere data, bliver modellen mere specifik ift. hver enkelt patient, men kræver dertil også en større database for at lave en funktionel model. Dette kan f.eks. inkludere meget specifikke kirurgiske indgreb eller sjældne komorbiditeter. 
+Et eksempel på kategorisering af data kan være alder, hvor denne kan inddeles i aldersgrupper. En gruppe kan eksempelvis være 20-29 år hvilket kræver en mindre database, end aldersinddelingen 20-25 år, der udspænder et mindre interval.\cite{Rowan2007}  
+
+\subsection{Opdatering af model}
+En vigtig del af en prædiktiv model er, at denne kan tilpasse ændringer i parametres vægtning løbende ved ny data.\cite{Kuhn2013} Ved ændring i medicinering eller procedure af kirurgiske indgreb kan prædiktering af det gældende indgreb give misvisende estimateringer af indlæggelsesvarigheden. Derfor kan modellen ved transitioner mellem procedureændringer blive invalideret og dermed skal den prædiktive model have inkorporeret mere data før denne kan forudsige indlæggelsesvarigheden. 
+Hvis et datapunkt ikke kan kategoriseres i systemet, kan det være nødsaget at ekskludere denne data fra indskrivelse i databasen.
+
+\subsection{Parametre der har indflydelse på indlæggelsesvarigheden}
+
+\subsubsection{Parametre}
+
+\subsubsection{Ressourcer}
