@@ -29,5 +29,5 @@
 \contentsline {subsection}{\numberline {3.2.6}Parametres indflydelse p\IeC {\r a} indl\IeC {\ae }ggelsesvarigheden}{15}{subsection.3.2.6}
 \contentsline {subsubsection}{Parametre}{15}{section*.6}
 \contentsline {subsubsection}{Ressourcer}{16}{section*.7}
-\contentsline {subsection}{\numberline {3.2.7}Forudsigelse postoperativt}{16}{subsection.3.2.7}
-\contentsline {subsubsection}{Komplikationer under og efter operation}{16}{section*.8}
+\contentsline {section}{\numberline {3.3}Forudsigelse postoperativt}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Komplikationer under og efter operation}{16}{subsection.3.3.1}
