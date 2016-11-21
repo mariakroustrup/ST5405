@@ -2,20 +2,16 @@
 Formålet med at konstruere en prædiktiv model er at bestemme indlæggelsesvarigheden for patienter med en acceptabel procentvis afvigelse. Modellen er et redskab til sundhedspersonalet, der skal vurdere indlæggelsesvarigheden når en operation planlægges og gennemføres. Den prædiktive model bør udarbejdes, da kapacitetsproblemer kan medføre en ubalance mellem kapacitet og aktivitet, som nævnt i afsnit \ref{kap}. Det anses vigtigt at brugen af modellen, indsamlingen og indtastningen af data ikke er tidskrævende. Hvis dette er tilfældet vil det angiveligt have en indflydelse på personalets arbejdsopgaver, hvorfor problemet om ønsket effektivisering af kapacitetsudnyttelse ikke vil blive afhjulpet.
 
 \subsection{Præcision af data}
-*****Dette afsnit er ikke færdigt endnu. Der er er i stedet skreves vores tanker ift. opbygning afsnittet.***** \\
-Præcisionen skal vurderes på baggrund af, at patienter indlagt på ortopædkirurgisk afdeling. Den gennemsnitlige indlæggelsesvarighed er 9 dage (Median 6). 
-
-Dette betyder enten, at modellens præcision skal være høj eller, at modellen kun bør anvendes til patienter med en forventet indlæggelsesvarighed over gennemsnittet.
-Et estimat på 1-2 dage vurderes at være et rimeligt estimat af præcisionen af modellen.
-
-Lavere præcision vil resultere i en høj fejlrate relativt til den gennemsnitlige indlæggelsesvarighed.
-
-
-Modellen bør have et bedre estimat af indlæggelsesvarigheden end lægens/kirurgens estimat for at være et brugbart værktøj. 
+Præcisionen skal vurderes på baggrund af, at patienter indlagt på ortopædkirurgisk afdeling, gennemsnitligt er indlagt 9.7 dage \fxnote{Median 7.. ved ikke hvad vi skal gøre me’ed}.
+Det er i denne sammenhæng vanskeligt at udarbejde en definition på tilstrækkelig præcision. Præcision givet i dette afsnit er derfor estimater vurderet ud fra den tilgængelige data.
+Præcision af prædiktionen er vigtig da lav præcision vil resultere i en høj fejlrate relativt til den gennemsnitlige indlæggelsesvarighed.
+Der er forskellige muligheder for at estimere den ønskede præcision. 
+Præcisionen kan fastsættes til en tilstrækkelig værdi, eksempelvis $\pm 2$ dage, ud fra den gennemsnitlige indlæggelsesvarighed. 
+Alternativt kan patienter med en indlæggelsesvarighed på under en given tærskelværdi, f.eks. $3$ dage, eksluderes fra datasættet, da disse kræver en høj præcision for at prædiktere. Jo højere tærskelværdien er, des lavere kan præcisionen være.
 
 
-Det er lige så stort belæg for at finde et estimat af indlæggelsesvarigheden for akutte, såvel som elektive patienter. (Disse har lige lang gennemsnitlig indlæggelsestid)
-
+%Modellen bør have et bedre estimat af indlæggelsesvarigheden end lægens/kirurgens estimat for at være et brugbart værktøj.
+%Det er lige så stort belæg for at finde et estimat af indlæggelsesvarigheden for akutte, såvel som elektive patienter. (Disse har lige lang gennemsnitlig indlæggelsestid
 
 \subsection{Indsamling af data}
 Den prædiktiv model skal designes specifikt til ortopædkirurgisk afdeling på Aalborg Universitetshospital, da der er bestemte parametre som f.eks. operationer, procedurer, udstyr, personale og medicinering. For at sikre, at indsamling af data er tilstrækkelig og relevant skal der opstilles stramme retningslinjer for, hvordan disse indsamles og noteres. På baggrund af afgrænsningen til supervised learning i afsnit \ref{prae_model}, anses det nødvendigt, at hver indsamlede parameter har indflydelse på outputtet. Disse overvejelser øger sandsynligheden for at opnå en brugbar prædiktiv model. 
