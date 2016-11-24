@@ -21,11 +21,8 @@
 \contentsline {subsubsection}{Komplikationer under og efter operation (NY OVERSKRIFT)}{12}{section*.3}
 \contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\ae }processering}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Forudsigelse f\IeC {\o }r operation}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Pr\IeC {\ae }cision af data}{14}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Indsamling af data}{14}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Vurdering af parametre}{14}{subsection.3.2.5}
-\contentsline {subsubsection}{Objektive- og subjektive parametre}{15}{section*.4}
-\contentsline {subsection}{\numberline {3.2.6}Eksklusionskriterier for data}{15}{subsection.3.2.6}
-\contentsline {subsubsection}{Kategorisering af data}{15}{section*.5}
-\contentsline {subsection}{\numberline {3.2.7}Opdatering af model}{15}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.2}Forudsigelse f\IeC {\o }r operation *BEDRE OVERSKRIFT*}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Indsamling af data}{14}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Eksklusionskriterier for data}{14}{subsection.3.2.4}
+\contentsline {subsubsection}{Kategorisering af data}{14}{section*.4}
+\contentsline {subsection}{\numberline {3.2.5}Opdatering af model}{15}{subsection.3.2.5}
