@@ -26,3 +26,4 @@
 \contentsline {subsection}{\numberline {3.2.4}Eksklusionskriterier for data}{14}{subsection.3.2.4}
 \contentsline {subsubsection}{Kategorisering af data}{14}{section*.4}
 \contentsline {subsection}{\numberline {3.2.5}Opdatering af model}{15}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Machine learning}{15}{section.3.3}
