@@ -2,27 +2,32 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {danish}
-\contentsline {chapter}{\chapternumberline {1}Indledning}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Initierende problemstilling}{1}{section.1.1}
-\contentsline {chapter}{\chapternumberline {2}Problemanalyse}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Kapacitet}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Ortop\IeC {\ae }dkirurgisk afdeling}{4}{subsection.2.1.1}
-\contentsline {subsubsection}{Personalearbejde}{5}{section*.1}
-\contentsline {subsubsection}{Patientindl\IeC {\ae }ggelse}{5}{section*.2}
-\contentsline {section}{\numberline {2.2}Ubalance i kapacitetsudnyttelse}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Personalesikkerhed}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Patientsikkerhed}{7}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Bel\IeC {\ae }gningsgrad p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{8}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Problemformulering}{10}{subsection.2.3.1}
-\contentsline {chapter}{\chapternumberline {3}Probleml\IeC {\o }sning}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Forudsigelse af indl\IeC {\ae }ggelsesvarighed}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\ae }operativt}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Postoperativt}{12}{subsection.3.1.2}
-\contentsline {subsubsection}{Komplikationer under og efter operation (NY OVERSKRIFT)}{12}{section*.3}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\ae }processering}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Forudsigelse f\IeC {\o }r operation *BEDRE OVERSKRIFT*}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Indsamling af data}{14}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Eksklusionskriterier for data}{14}{subsection.3.2.4}
-\contentsline {subsubsection}{Kategorisering af data}{14}{section*.4}
-\contentsline {subsection}{\numberline {3.2.5}Opdatering af model}{15}{subsection.3.2.5}
+\contentsline {section}{\numberline {0.1}Forord}{1}{section.0.1}
+\contentsline {chapter}{\chapternumberline {1}Indledning}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Initierende problemstilling}{4}{section.1.1}
+\contentsline {chapter}{\chapternumberline {2}Problemanalyse}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Kapacitetsudnyttelse}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Ortop\IeC {\ae }dkirurgisk afdeling}{7}{subsection.2.1.1}
+\contentsline {subsubsection}{Personalearbejde}{8}{section*.7}
+\contentsline {subsubsection}{Patientindl\IeC {\ae }ggelse}{8}{section*.8}
+\contentsline {section}{\numberline {2.2}Ubalance i kapacitetsudnyttelse}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Arbejdsvilk\IeC {\r a}r}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Patientsikkerhed}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Bel\IeC {\ae }gningsgrad p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Problemformulering}{13}{subsection.2.3.1}
+\contentsline {chapter}{\chapternumberline {3}Probleml\IeC {\o }sning}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Forudsigelse af indl\IeC {\ae }ggelsesvarighed}{14}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\ae }operativt}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Postoperativt}{15}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Forudsigelse f\IeC {\o }r operation *BEDRE OVERSKRIFT*}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Indsamling af data}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Eksklusionskriterier for data}{17}{subsection.3.2.3}
+\contentsline {subsubsection}{Kategorisering af data}{17}{section*.9}
+\contentsline {subsection}{\numberline {3.2.4}Opdatering af model}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Pr\IeC {\ae }processering}{17}{subsection.3.2.5}
+\contentsline {section}{\numberline {.1}Bilag A}{19}{section..1}
+\contentsline {section}{\numberline {.2}Interview skabelon}{19}{section..2}
+\contentsline {subsection}{\numberline {.2.1}Eksklusionskriterier}{19}{subsection..2.1}
+\contentsline {subsection}{\numberline {.2.2}Interviewet med sygeplejersker p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{19}{subsection..2.2}
+\contentsline {subsection}{\numberline {.2.3}Interview med l\IeC {\ae }gesekret\IeC {\ae }r p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{20}{subsection..2.3}

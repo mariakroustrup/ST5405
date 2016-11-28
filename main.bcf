@@ -1972,22 +1972,20 @@
     <bcf:citekey order="34">SDS2015</bcf:citekey>
     <bcf:citekey order="35">SDS2015</bcf:citekey>
     <bcf:citekey order="36">Bames2015</bcf:citekey>
-    <bcf:citekey order="37">Krell2014</bcf:citekey>
-    <bcf:citekey order="38">Kjeldsen2015b</bcf:citekey>
-    <bcf:citekey order="39">Kuhn2013</bcf:citekey>
-    <bcf:citekey order="40">Hastie2008</bcf:citekey>
-    <bcf:citekey order="41">Sheskin2000</bcf:citekey>
-    <bcf:citekey order="42">MathWorks2016</bcf:citekey>
-    <bcf:citekey order="43">DIKU2010</bcf:citekey>
-    <bcf:citekey order="44">Brownlee2013</bcf:citekey>
-    <bcf:citekey order="45">Brownlee2013</bcf:citekey>
+    <bcf:citekey order="37">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="38">Hastie2008</bcf:citekey>
+    <bcf:citekey order="39">Sheskin2000</bcf:citekey>
+    <bcf:citekey order="40">MathWorks2016</bcf:citekey>
+    <bcf:citekey order="41">DIKU2010</bcf:citekey>
+    <bcf:citekey order="42">Brownlee2013</bcf:citekey>
+    <bcf:citekey order="43">Brownlee2013</bcf:citekey>
+    <bcf:citekey order="43">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="44">Kuhn2013</bcf:citekey>
     <bcf:citekey order="45">Kuhn2013</bcf:citekey>
-    <bcf:citekey order="46">Saar2007</bcf:citekey>
-    <bcf:citekey order="47">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="46">Rowan2007</bcf:citekey>
+    <bcf:citekey order="47">Rowan2007</bcf:citekey>
     <bcf:citekey order="48">Kuhn2013</bcf:citekey>
-    <bcf:citekey order="49">Rowan2007</bcf:citekey>
-    <bcf:citekey order="50">Rowan2007</bcf:citekey>
-    <bcf:citekey order="51">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="49">Saar2007</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>
