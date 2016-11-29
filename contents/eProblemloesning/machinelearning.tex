@@ -7,10 +7,10 @@ Supervised machine learning tager derimod udgangspunkt i input-output relationer
 
 
 \begin{figure}[H]
-	\flushleft
+%	\flushleft
 	\centering
 	\includegraphics[scale=0.8]{figures/machinelearning.png}
-	\flushleft
+%	\flushleft
 	\caption{\textit{Machine learning danner et regelsæt ud fra input-output relationen.\cite{DIKU2010}}}
 	\label{ml}
 	\end{figure}
@@ -35,10 +35,10 @@ Det er vigtigt at modellen ikke testes med samme data som anvendes til at opbygg
 
 
 \begin{figure}[H]
-	\flushleft 
+	%\flushleft 
 	\centering
 	\includegraphics[scale=.7]{figures/xval.png}
-	\flushleft
+	%\flushleft
 	\caption{\textit{Udvælgelse af datapunkter til træningssæt og testsæt.\cite{Kuhn2013}}
 	\label{fig:xval}
 \end{figure}
@@ -55,16 +55,14 @@ Når en prædiktiv machine learnings model konstrueres, er det essentielt at hav
 
 
 \begin{figure}[H]
-	\flushleft 
+%	\flushleft 
 	\centering
 	\includegraphics[scale=.5]{figures/genfejl.png}
-	\flushleft
+	%\flushleft
 	\caption{\textit{Learning curve der viser sammenhængen mellem datastørrelse og fejlrate.\cite{Kuhn2013}}
 	\label{fig:genfejl}
 \end{figure}
 
-
+\noindent
 Generaliseringsfejlen bygges også på hvor stort trænings og testsættet er. Generaliseringsfejlen er dog eksponentielt faldende, og kan dermed ikke undgås helt, uafhængigt af træningsættets størrelse.\cite{DIKU2010}
-Antallet af parametre, og hvilke der har størst indflydelse på outputtet testes ved at opbygge træningssæt med et begrænset antal parametre, og derefter prædiktere ud fra testsættet. Ved at anvende alle mulige kombinationer af parametre, kan der konstrueres en model. Denne model anvender de parametre der i sammenhæng har størst indflydelse på outputtet, med det lavest mulige antal parametre. Dermed kan machine learning anvendes til at vurdere hvilke parametre der har en statistisk sammenhæng, og bør inddrages i en model til eksempelvis prædiktering af indlæggelsesvarighed.\cite{Kuhn2013 DIKU2010} 
-
-
+Antallet af parametre, og hvilke der har størst indflydelse på outputtet testes ved at opbygge træningssæt med et begrænset antal parametre, og derefter prædiktere ud fra testsættet. Ved at anvende alle mulige kombinationer af parametre, kan der konstrueres en model. Denne model anvender de parametre der i sammenhæng har størst indflydelse på outputtet, med det lavest mulige antal parametre. Dermed kan machine learning anvendes til at vurdere hvilke parametre der har en statistisk sammenhæng, og bør inddrages i en model til eksempelvis prædiktering af indlæggelsesvarighed.\cite{Kuhn2013,DIKU2010} 
