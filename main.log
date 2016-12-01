@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  1 DEC 2016 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  1 DEC 2016 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2247,13 +2247,13 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 55.
  [14 <./figures/antaldage.png (PNG copy)>] (./contents/eProblemloesning/problem
 loesning.tex
 Package babel Info: Redefining danish shorthand "|
@@ -2311,10 +2311,6 @@ Overfull \hbox (36.74957pt too wide) in paragraph at lines 16--18
  []
 
 
-LaTeX Warning: Reference `alderogindlaeggelsese' on page 17 undefined on input 
-line 24.
-
-
 LaTeX Warning: Citation 'Ermonds2004' on page 17 undefined on input line 27.
 
 
@@ -2327,7 +2323,7 @@ Overfull \hbox (31.74352pt too wide) in paragraph at lines 27--28
 si-ko for blodpropper[[]].
  []
 
-<figures/BMIogindlaeg.png, id=277, 757.32938pt x 303.38344pt>
+<figures/BMIogindlaeg.png, id=278, 757.32938pt x 303.38344pt>
 File: figures/BMIogindlaeg.png Graphic file (type png)
 
 <use figures/BMIogindlaeg.png>
@@ -2347,100 +2343,95 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 37.
 [17 <./figures/alderogindlaeg.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 40.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 40.
-
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 18 undefined on input line 44
+LaTeX Warning: Citation 'Nordjylland2014' on page 18 undefined on input line 43
 .
 
 <figures/rygerogindlaeg.png, id=288, 670.00313pt x 350.81062pt>
 File: figures/rygerogindlaeg.png Graphic file (type png)
 
 <use figures/rygerogindlaeg.png>
-Package pdftex.def Info: figures/rygerogindlaeg.png used on input line 50.
+Package pdftex.def Info: figures/rygerogindlaeg.png used on input line 49.
 (pdftex.def)             Requested size: 368.50285pt x 192.94643pt.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 54.
  [18 <./figures/BMIogindlaeg.png (PNG copy)>]
 
-LaTeX Warning: Reference `rygerogindlaeggelse' on page 19 undefined on input li
-ne 58.
-
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 19 undefined on input line 60
+LaTeX Warning: Citation 'Nordjylland2014' on page 19 undefined on input line 59
 .
 
-<figures/alkohologindlaeg.png, id=298, 856.70062pt x 514.92375pt>
+<figures/alkohologindlaeg.png, id=296, 856.70062pt x 514.92375pt>
 File: figures/alkohologindlaeg.png Graphic file (type png)
 
 <use figures/alkohologindlaeg.png>
-Package pdftex.def Info: figures/alkohologindlaeg.png used on input line 66.
+Package pdftex.def Info: figures/alkohologindlaeg.png used on input line 65.
 (pdftex.def)             Requested size: 471.1868pt x 283.20892pt.
 
-Overfull \hbox (45.1868pt too wide) in paragraph at lines 66--68
+Overfull \hbox (45.1868pt too wide) in paragraph at lines 65--67
  [][] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 [19 <./figures/rygerogindlaeg.png>]
-<figures/operaogindlaeg.png, id=306, 889.82437pt x 498.36188pt>
+
+LaTeX Warning: Reference `interview' on page 20 undefined on input line 75.
+
+
+LaTeX Warning: Reference `diabetesogindlaeggelse' on page 20 undefined on input
+ line 75.
+
+
+LaTeX Warning: Reference `diabetesogindlaeggelse' on page 20 undefined on input
+ line 87.
+
+<figures/operaogindlaeg.png, id=305, 889.82437pt x 498.36188pt>
 File: figures/operaogindlaeg.png Graphic file (type png)
 
 <use figures/operaogindlaeg.png>
-Package pdftex.def Info: figures/operaogindlaeg.png used on input line 84.
+Package pdftex.def Info: figures/operaogindlaeg.png used on input line 99.
 (pdftex.def)             Requested size: 444.9111pt x 249.18033pt.
 
-Overfull \hbox (18.9111pt too wide) in paragraph at lines 84--86
+Overfull \hbox (18.9111pt too wide) in paragraph at lines 99--101
  [][] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 104.
 [20 <./figures/alkohologindlaeg.png>])
 (./contents/eProblemloesning/postoperation.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
-
-
-LaTeX Warning: Reference `interview1' on page 21 undefined on input line 4.
-
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 6.
-[21 <./figures/operaogindlaeg.png>])
-(./contents/eProblemloesning/praediktivModel.tex
+(babel)             in language  on input line 5.
+ [21 <./figures/operaogindlaeg.png>]) (./contents/eProblemloesning/praediktivMo
+del.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2487,7 +2478,7 @@ LaTeX Warning: Citation 'Brownlee2013' on page 22 undefined on input line 16.
 
 LaTeX Warning: Citation 'Kuhn2013' on page 22 undefined on input line 16.
 
-<figures/praediktivmodel.png, id=323, 600.2425pt x 188.705pt>
+<figures/praediktivmodel.png, id=321, 600.2425pt x 188.705pt>
 File: figures/praediktivmodel.png Graphic file (type png)
 
 <use figures/praediktivmodel.png>
@@ -2499,13 +2490,13 @@ Overfull \hbox (12.17339pt too wide) in paragraph at lines 22--24
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 [22]) (./contents/eProblemloesning/behandlingafdata.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
@@ -2565,7 +2556,7 @@ Package babel Info: Redefining danish shorthand "~
 
 LaTeX Warning: Citation 'DIKU2010' on page 25 undefined on input line 2.
 
-<figures/machinelearning.png, id=344, 502.87875pt x 190.7125pt>
+<figures/machinelearning.png, id=342, 502.87875pt x 190.7125pt>
 File: figures/machinelearning.png Graphic file (type png)
 
 <use figures/machinelearning.png>
@@ -2574,12 +2565,6 @@ Package pdftex.def Info: figures/machinelearning.png used on input line 12.
 
 
 LaTeX Warning: Citation 'DIKU2010' on page 25 undefined on input line 14.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\T1/cmr/bx/n/12 Figur 3.7: |\T1/cmr/m/it/12 Ma-chine lear-ning dan-ner et re-
-gel-sæt ud fra input-output
- []
 
 
 LaTeX Warning: Citation 'DIKU2010' on page 25 undefined on input line 19.
@@ -2616,11 +2601,11 @@ LaTeX Warning: Citation 'Kuhn2013' on page 26 undefined on input line 34.
 
 LaTeX Warning: Citation 'Kuhn2013' on page 26 undefined on input line 34.
 
-<figures/xval.png, id=353, 515.9275pt x 421.575pt>
+<figures/xval.png, id=351, 515.9275pt x 421.575pt>
 File: figures/xval.png Graphic file (type png)
  <use figures/xval.png>
 Package pdftex.def Info: figures/xval.png used on input line 40.
-(pdftex.def)             Requested size: 361.14679pt x 295.10048pt.
+(pdftex.def)             Requested size: 335.34889pt x 274.0205pt.
 
 
 LaTeX Warning: Citation 'Kuhn2013' on page 26 undefined on input line 42.
@@ -2646,24 +2631,24 @@ LaTeX Warning: Citation 'DIKU2010' on page 27 undefined on input line 51.
 
 LaTeX Warning: Citation 'DIKU2010' on page 27 undefined on input line 54.
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 55.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 55.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 55.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 55.
-[27 <./figures/xval.png>] <figures/genfejl.png, id=369, 421.575pt x 361.35pt>
+<figures/genfejl.png, id=360, 421.575pt x 361.35pt>
 File: figures/genfejl.png Graphic file (type png)
-
-<use figures/genfejl.png>
+ <use figures/genfejl.png>
 Package pdftex.def Info: figures/genfejl.png used on input line 60.
-(pdftex.def)             Requested size: 210.78697pt x 180.67456pt.
+(pdftex.def)             Requested size: 252.94695pt x 216.81168pt.
 
 
-LaTeX Warning: Citation 'Kuhn2013' on page 28 undefined on input line 62.
+LaTeX Warning: Citation 'Kuhn2013' on page 27 undefined on input line 62.
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 65.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 65.
+[27 <./figures/xval.png>]
 
 LaTeX Warning: Citation 'DIKU2010' on page 28 undefined on input line 67.
 
@@ -2675,16 +2660,16 @@ LaTeX Warning: Citation 'DIKU2010' on page 28 undefined on input line 68.
 
 )
 
-LaTeX Warning: Empty bibliography on input line 71.
+LaTeX Warning: Empty bibliography on input line 67.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 68.
 [28 <./figures/genfejl.png>] (./contents/yBilag/interviewskabelon.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
@@ -2725,27 +2710,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
 )
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 75.
  [30]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CB772E6290EC40A771E8840D8A21A62A;1663.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2755,16 +2743,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 30258 strings out of 493089
- 537966 string characters out of 6134843
+ 30215 strings out of 493089
+ 537048 string characters out of 6134843
  996167 words of memory out of 5000000
- 33209 multiletter control sequences out of 15000+600000
- 36021 words of font info for 104 fonts, out of 8000000 for 9000
+ 33175 multiletter control sequences out of 15000+600000
+ 31502 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,22n,78p,10423b,1593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,22n,78p,10423b,1565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
@@ -2776,22 +2764,19 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
-bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/bookman/
-ubkl8a.pfb>
-Output written on main.pdf (34 pages, 847210 bytes).
+ist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/urw/bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/bo
+okman/ubkl8a.pfb>
+Output written on main.pdf (34 pages, 826573 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

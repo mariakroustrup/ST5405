@@ -11,7 +11,7 @@ Supervised machine learning tager derimod udgangspunkt i input-output relationer
 	\centering
 	\includegraphics[scale=0.8]{figures/machinelearning.png}
 %	\flushleft
-	\caption{\textit{Machine learning danner et regelsæt ud fra input-output relationen.\cite{DIKU2010}}}
+	\caption{\textit{Machine learning danner et regelsæt ud fra input-output relationen.}\cite{DIKU2010}}
 	\label{ml}
 	\end{figure}
 
@@ -29,7 +29,7 @@ Det anses muligt at planlægge patienter efter deres indlæggelsesvarighed for s
 Machine learnings modeller konstrueres som en algoritme på baggrund af indsamlet data.\cite{Kuhn2013}  Når en algoritme designes til machine learning gøres dette på baggrund af et træningssæt. \cite{DIKU2010} 
 
 
-\subsubsection{træningssæt}
+\subsubsection{Træningssæt}
 Træningssættet tager udgangspunkt i en datamængde, der enten har kendte eller ukendte labels. Et træningssæt laves på baggrund af en del af den indsamlede data, hvor den resterende data testes på denne model. Et træningssæt basere på en forudbestemt machine learnings algoritme. Valget af algoritme belyses i afsnit \ref{algovalg}
 Det er vigtigt at modellen ikke testes med samme data som anvendes til at opbygge træningssættet, da dette ville medføre at modellen kun er repræsentativ for den givne data.\cite{Kuhn2013} Ved supervised learning forsøges det at udarbejde en model, hvor data tilknyttes til labels og det bliver klassificeret. Det er vigtigt, at modellen afbildes så korrekt som muligt, for både træningssættet og de nye data. Et eksempel på udvælgelse af et træningssæts størrelse kunne være at udtage 200 datapunkter ud af 1000. Derefter konstrueres en algoritme på baggrund af træningssættet på 200 datapunkter, til at prædiktere en given parameter ud fra testsættet, hvilket er de resterende 800 datapunkter. Denne form for træningssæt opbygning er kendt som cross validation, og kan ses på figur \ref{fig:xval}\cite{Kuhn2013}.
 
@@ -37,9 +37,9 @@ Det er vigtigt at modellen ikke testes med samme data som anvendes til at opbygg
 \begin{figure}[H]
 	%\flushleft 
 	\centering
-	\includegraphics[scale=.7]{figures/xval.png}
+	\includegraphics[scale=.65]{figures/xval.png}
 	%\flushleft
-	\caption{\textit{Udvælgelse af datapunkter til træningssæt og testsæt.\cite{Kuhn2013}}}
+	\caption{\textit{Udvælgelse af datapunkter til træningssæt og testsæt.}\cite{Kuhn2013}}
 	\label{fig:xval}
 \end{figure}
 
@@ -57,9 +57,9 @@ Når en prædiktiv machine learnings model konstrueres, er det essentielt at hav
 \begin{figure}[H]
 %	\flushleft 
 	\centering
-	\includegraphics[scale=.5]{figures/genfejl.png}
+	\includegraphics[scale=.6]{figures/genfejl.png}
 	%\flushleft
-	\caption{\textit{Learning curve der viser sammenhængen mellem datastørrelse og fejlrate.\cite{Kuhn2013}}}
+	\caption{\textit{Learning curve der viser sammenhængen mellem datastørrelse og fejlrate.}\cite{Kuhn2013}}
 	\label{fig:genfejl}
 \end{figure}
 

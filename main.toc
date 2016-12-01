@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {3.3}Supervised machine learning}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Supervised machine learning til estimering af indl\IeC {\ae }ggelsesvarighed}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Konstruering af model}{26}{subsection.3.3.2}
-\contentsline {subsubsection}{tr\IeC {\ae }ningss\IeC {\ae }t}{26}{section*.33}
+\contentsline {subsubsection}{Tr\IeC {\ae }ningss\IeC {\ae }t}{26}{section*.33}
 \contentsline {subsubsection}{Algoritme valg}{27}{section*.35}
 \contentsline {subsubsection}{Bestemmelse af parametre}{27}{section*.36}
 \contentsline {appendix}{\chapternumberline {A}Bilag A}{29}{chapter.A}
