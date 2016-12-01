@@ -19,24 +19,23 @@
 \contentsline {section}{\numberline {3.1}Forudsigelse af indl\IeC {\ae }ggelsesvarigheden}{16}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\ae }operativt}{16}{subsection.3.1.1}
 \contentsline {subsubsection}{Livsstilsfaktorer}{17}{section*.19}
-\contentsline {subsubsection}{Indgreb}{21}{section*.25}
-\contentsline {subsubsection}{Tilg\IeC {\ae }ngelige kirurger}{22}{section*.27}
+\contentsline {subsubsection}{Operationstype}{20}{section*.25}
+\contentsline {subsubsection}{Tilg\IeC {\ae }ngelige kirurger}{21}{section*.27}
 \contentsline {subsection}{\numberline {3.1.2}Postoperativt}{22}{subsection.3.1.2}
-\contentsline {subsubsection}{Komplikation under operation}{23}{section*.28}
-\contentsline {subsubsection}{Varigheden af operationen}{23}{section*.29}
-\contentsline {subsubsection}{Bev\IeC {\ae }gelighed}{23}{section*.30}
-\contentsline {subsubsection}{Afhentning af patienter}{23}{section*.31}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Indsamling af data}{24}{subsection.3.2.1}
-\contentsline {subsubsection}{Eksklusionskriterier for data}{25}{section*.33}
-\contentsline {subsubsection}{Opdatering af model}{25}{section*.34}
-\contentsline {subsubsection}{Pr\IeC {\ae }processering}{25}{section*.35}
+\contentsline {subsubsection}{Komplikation under operation}{22}{section*.28}
+\contentsline {subsubsection}{Komplikationer efter operationen}{22}{section*.30}
+\contentsline {subsubsection}{Udskrivelse af patienter}{23}{section*.32}
+\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Indsamling af data}{25}{subsection.3.2.1}
+\contentsline {subsubsection}{Eksklusionskriterier for data}{25}{section*.34}
+\contentsline {subsubsection}{Opdatering af model}{25}{section*.35}
+\contentsline {subsubsection}{Pr\IeC {\ae }processering}{26}{section*.36}
 \contentsline {section}{\numberline {3.3}Supervised machine learning}{26}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Supervised machine learning til estimering af indl\IeC {\ae }ggelsesvarighed}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Estimering af indl\IeC {\ae }ggelsesvarigheden}{27}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Konstruering af model}{27}{subsection.3.3.2}
-\contentsline {subsubsection}{Tr\IeC {\ae }ningss\IeC {\ae }t}{28}{section*.37}
-\contentsline {subsubsection}{Algoritme valg}{28}{section*.39}
-\contentsline {subsubsection}{Bestemmelse af parametre}{29}{section*.40}
+\contentsline {subsubsection}{Tr\IeC {\ae }ningss\IeC {\ae }t}{28}{section*.38}
+\contentsline {subsubsection}{Algoritme valg}{28}{section*.40}
+\contentsline {subsubsection}{Bestemmelse af parametre}{29}{section*.41}
 \contentsline {appendix}{\chapternumberline {A}Bilag A}{31}{chapter.A}
 \contentsline {section}{\numberline {A.1}Interview skabelon}{31}{section.A.1}
 \contentsline {subsection}{\numberline {A.1.1}Interviewet med sygeplejersker}{31}{subsection.A.1.1}
