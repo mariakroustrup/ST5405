@@ -1,0 +1,47 @@
+\changetocdepth {2}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {danish}
+\contentsline {chapter}{\chapternumberline {1}Indledning}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Initierende problemstilling}{4}{section.1.1}
+\contentsline {chapter}{\chapternumberline {2}Problemanalyse}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Kapacitetsudnyttelse}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Ortop\IeC {\ae }dkirurgisk afdeling}{7}{subsection.2.1.1}
+\contentsline {subsubsection}{Budget p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{8}{section*.11}
+\contentsline {subsubsection}{Personalearbejde}{9}{section*.13}
+\contentsline {subsubsection}{Patientindl\IeC {\ae }ggelse}{9}{section*.14}
+\contentsline {section}{\numberline {2.2}Ubalance i kapacitetsudnyttelse}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Arbejdsvilk\IeC {\r a}r}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Patientsikkerhed}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Bel\IeC {\ae }gningsgrad p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Problemformulering}{15}{section.2.4}
+\contentsline {chapter}{\chapternumberline {3}Probleml\IeC {\o }sning}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Forudsigelse af indl\IeC {\ae }ggelsesvarigheden}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\ae }operativt}{16}{subsection.3.1.1}
+\contentsline {subsubsection}{Demografiske}{17}{section*.19}
+\contentsline {subsubsection}{Livsstilfaktorer}{18}{section*.22}
+\contentsline {subsubsection}{Kliniske faktorer}{23}{section*.31}
+\contentsline {subsubsection}{Tilg\IeC {\ae }ngelige kirurger}{24}{section*.34}
+\contentsline {subsection}{\numberline {3.1.2}Postoperativt}{24}{subsection.3.1.2}
+\contentsline {subsubsection}{Komplikation under operation}{24}{section*.35}
+\contentsline {subsubsection}{Komplikationer efter operationen}{26}{section*.38}
+\contentsline {subsubsection}{Udskrivelse af patienter}{27}{section*.41}
+\contentsline {section}{\numberline {3.2}Pr\IeC {\ae }diktiv model}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Indsamling af data}{28}{subsection.3.2.1}
+\contentsline {subsubsection}{Eksklusionskriterier for data}{29}{section*.43}
+\contentsline {subsubsection}{Opdatering af model}{29}{section*.44}
+\contentsline {subsubsection}{Pr\IeC {\ae }processering}{29}{section*.45}
+\contentsline {section}{\numberline {3.3}Supervised machine learning}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Estimering af indl\IeC {\ae }ggelsesvarigheden}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Konstruering af model}{31}{subsection.3.3.2}
+\contentsline {subsubsection}{Tr\IeC {\ae }ningss\IeC {\ae }t}{31}{section*.47}
+\contentsline {subsubsection}{Algoritme valg}{32}{section*.49}
+\contentsline {subsubsection}{Bestemmelse af parametre}{32}{section*.50}
+\contentsline {chapter}{\chapternumberline {4}Syntese}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Diskussion}{34}{section.4.1}
+\contentsline {appendix}{\chapternumberline {A}Bilag A}{37}{chapter.A}
+\contentsline {section}{\numberline {A.1}Interview skabelon}{37}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Interviewet med sygeplejersker}{37}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Interview med l\IeC {\ae }gesekret\IeC {\ae }r}{38}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Interview med sygeplejersker}{38}{section.A.2}
+\contentsline {section}{\numberline {A.3}Interview med l\IeC {\ae }gesekret\IeC {\ae }r}{38}{section.A.3}
