@@ -27,7 +27,7 @@ En vigtig del af en prædiktiv model er, at denne kan tilpasse ændringer i para
 Hvis et datapunkt ikke kan kategoriseres i systemet, kan det være nødsaget at ekskludere denne data fra indskrivelse i databasen.
 
 
-\subsubsection{Præprocessering}
+\subsubsection{Præprocessering} \label{praeproc}
 Hvis en datamængde allerede er tilgængelig, eksempelvis indsamlet til et andet formål, kan det være nødvendigt at anvende præprocessering på dataen. Dette gøres for at tilpasse den allerede indsamlede data til det nye formål.
 Da flere parametre i datasættet fra ortopædkirurgisk afdeling på Aalborg Universitetshospital mangler, anses det nødvendigt at foretage præprocessering. Præprocessering foregår manuelt før en prædiktiv modellering kan foretages.
 Der findes flere metoder, der kan anvendes for at kompensere for de manglende parametre. Kompenseringen kan forekomme ved kassering af værdier, tilegne manglende værdier, reducering af værdier og imputering. Imputering opdeles i tre underkategorier: Prædiktiv værdi imputation, Distribution-baserede imputation og Unik-værdi imputation. Prædiktiv værdi imputation erstatter den manglende værdi med estimerede værdier. Distribution-baserede imputation vægter værdien af manglende data mindre end det resterende, således disse får en mindre betydning under generering. Unik-værdi imputation erstatter den manglede værdi med en vilkårlig værdi fra samme parameter.\cite{Saar2007} 
