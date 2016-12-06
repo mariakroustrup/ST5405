@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  5 DEC 2016 11:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  6 DEC 2016 16:09
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.tex"
@@ -1817,7 +1817,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \c__siunitx_mathtt_int=\count447
 
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
-frontpage.tex" <figures/aaulogo-da.png, id=111, 122.4575pt x 76.285pt>
+frontpage.tex" <figures/aaulogo-da.png, id=103, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1877,550 +1877,227 @@ Overfull \hbox (13.4102pt too wide) in paragraph at lines 20--81
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.toc") [2]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
 forord.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
-metode.tex"pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.1}) has been already used, duplicate ignored
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/aIndledning/aI
+ndledning.tex"pdfTeX warning (ext4): destination with the same identifier (name
+{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            *{Metode} [1
+            {Indledning} \label{indl} [1
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+]
+
+LaTeX Warning: Citation 'Company2013' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Budget2016' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'RegionNord2016' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Kjeldsen2015' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Aiken2002' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Madsen2014' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Heidmann2014' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'SDS2015' on page 2 undefined on input line 5.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 
-      [2
+l.49 \chapter
+             {Problemanalyse} [2
 
-])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/aIndledning/aI
-ndledning.tex" [3]
-
-LaTeX Warning: Citation 'Company2013' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Budget2016' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'RegionNord2016' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Kjeldsen2015' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Aiken2002' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Madsen2014' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Heidmann2014' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'SDS2015' on page 4 undefined on input line 5.
-
-) [4
-
-] [5]
+] [3]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
-e/Kapacitetsudnyttelse.tex"
+e/ortopaedkirurgiskafd.tex"
 
-LaTeX Warning: Citation 'Company2013' on page 6 undefined on input line 3.
+LaTeX Warning: Citation 'Aalborg2016' on page 4 undefined on input line 3.
 
-<figures/Kapacitetsudnyttelse.png, id=203, 647.41875pt x 369.38pt>
+
+LaTeX Warning: Citation 'Danske2015' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'RegionNord2016' on page 4 undefined on input line 9.
+
+[4
+
+] <figures/elektivvsakut.png, id=185, 719.68875pt x 392.96812pt>
+File: figures/elektivvsakut.png Graphic file (type png)
+
+<use figures/elektivvsakut.png>
+Package pdftex.def Info: figures/elektivvsakut.png used on input line 14.
+(pdftex.def)             Requested size: 395.83003pt x 216.13312pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+<figures/indlaegudskriv.png, id=189, 874.76813pt x 523.9575pt>
+File: figures/indlaegudskriv.png Graphic file (type png)
+
+<use figures/indlaegudskriv.png>
+Package pdftex.def Info: figures/indlaegudskriv.png used on input line 29.
+(pdftex.def)             Requested size: 437.383pt x 261.9781pt.
+
+Overfull \hbox (11.383pt too wide) in paragraph at lines 29--31
+ [][] 
+ []
+
+[5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/elektivvsakut
+.png>])
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
+e/kapacitet.tex"
+
+LaTeX Warning: Citation 'Company2013' on page 6 undefined on input line 2.
+
+<figures/Kapacitetsudnyttelse.png, id=198, 647.41875pt x 369.38pt>
 File: figures/Kapacitetsudnyttelse.png Graphic file (type png)
 
 <use figures/Kapacitetsudnyttelse.png>
-Package pdftex.def Info: figures/Kapacitetsudnyttelse.png used on input line 8.
+Package pdftex.def Info: figures/Kapacitetsudnyttelse.png used on input line 7.
 
 (pdftex.def)             Requested size: 323.70857pt x 184.68954pt.
 
 
-LaTeX Warning: Citation 'Company2013' on page 6 undefined on input line 10.
+LaTeX Warning: Citation 'Company2013' on page 6 undefined on input line 9.
+
+[6 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/indlaegudskri
+v.png>]
+
+LaTeX Warning: Citation 'Company2013' on page 7 undefined on input line 14.
 
 
-LaTeX Warning: Citation 'Company2013' on page 6 undefined on input line 15.
+LaTeX Warning: Citation 'Heidmann2014' on page 7 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'Heidmann2014' on page 6 undefined on input line 17.
+LaTeX Warning: Reference `kap' on page 7 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'Pauly1986' on page 6 undefined on input line 18.
+LaTeX Warning: Citation 'SDS2015' on page 7 undefined on input line 20.
 
-[6
-
- <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/Kapacitetsudnyt
-telse.png>]
-
-LaTeX Warning: Citation 'Aalborg2016' on page 7 undefined on input line 23.
-
-
-Overfull \hbox (0.15134pt too wide) in paragraph at lines 23--24
-\T1/cmr/m/n/12 Ortopædkirurgisk af-de-ling på Aal-borg Uni-ver-si-tets-ho-spi-t
-al be-hand-ler ska-de på knog-
- []
-
-<figures/operationsdiagram.png, id=213, 755.82375pt x 454.69875pt>
-File: figures/operationsdiagram.png Graphic file (type png)
-
-<use figures/operationsdiagram.png>
-Package pdftex.def Info: figures/operationsdiagram.png used on input line 28.
-(pdftex.def)             Requested size: 415.70435pt x 250.08508pt.
- [7]
-
-LaTeX Warning: Citation 'DRG2016' on page 8 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Rasmussen2016' on page 8 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Noegletal2016' on page 8 undefined on input line 39.
-
-<figures/Ortopaeddiagram.png, id=221, 700.6175pt x 534.99875pt>
-File: figures/Ortopaeddiagram.png Graphic file (type png)
-
-<use figures/Ortopaeddiagram.png>
-Package pdftex.def Info: figures/Ortopaeddiagram.png used on input line 45.
-(pdftex.def)             Requested size: 315.27496pt x 240.74721pt.
-
-
-LaTeX Warning: Citation 'Rasmussen2016' on page 8 undefined on input line 47.
-
-[8 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/operationsdia
-gram.png>]
-
-LaTeX Warning: Citation 'Danske2015' on page 9 undefined on input line 53.
-
-
-LaTeX Warning: Citation 'RegionNord2016' on page 9 undefined on input line 60.
-
-<figures/elektivvsakut.png, id=233, 719.68875pt x 392.96812pt>
-File: figures/elektivvsakut.png Graphic file (type png)
-
-<use figures/elektivvsakut.png>
-Package pdftex.def Info: figures/elektivvsakut.png used on input line 65.
-(pdftex.def)             Requested size: 395.83003pt x 216.13312pt.
- [9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/Ortopaeddiag
-ram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
-
- []
-
-<figures/indlaegudskriv.png, id=246, 874.76813pt x 523.9575pt>
-File: figures/indlaegudskriv.png Graphic file (type png)
-
-<use figures/indlaegudskriv.png>
-Package pdftex.def Info: figures/indlaegudskriv.png used on input line 82.
-(pdftex.def)             Requested size: 437.383pt x 261.9781pt.
-
-Overfull \hbox (11.383pt too wide) in paragraph at lines 82--84
- [][] 
- []
-
-[10 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/elektivvsaku
-t.png>])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
-e/Kapacitetsmangel.tex"
-
-LaTeX Warning: Citation 'Bjerg2016' on page 11 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Bjerg2016' on page 11 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Danske2015' on page 11 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Dinges2004' on page 11 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Kjeldsen2015' on page 11 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Kjeldsen2015' on page 11 undefined on input line 9.
-
-[11 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/indlaegudskr
-iv.png>]
-
-LaTeX Warning: Citation 'Heidmann2014' on page 12 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Madsen2014' on page 12 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Madsen2014' on page 12 undefined on input line 19.
-
-
-LaTeX Warning: Citation 'Beredskab2016' on page 12 undefined on input line 23.
-
-)
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
-e/Omfangafproblem.tex"
-
-LaTeX Warning: Citation 'SDS2015' on page 12 undefined on input line 2.
-
-[12] <figures/maxminoverbelaeg.png, id=268, 1004.75375pt x 769.87625pt>
+<figures/maxminoverbelaeg.png, id=207, 1004.75375pt x 769.87625pt>
 File: figures/maxminoverbelaeg.png Graphic file (type png)
 
 <use figures/maxminoverbelaeg.png>
-Package pdftex.def Info: figures/maxminoverbelaeg.png used on input line 8.
+Package pdftex.def Info: figures/maxminoverbelaeg.png used on input line 25.
 (pdftex.def)             Requested size: 452.13501pt x 346.44112pt.
 
-Overfull \hbox (26.13501pt too wide) in paragraph at lines 8--9
+Overfull \hbox (26.13501pt too wide) in paragraph at lines 25--26
  [] 
  []
 
 
-LaTeX Warning: Citation 'SDS2015' on page 13 undefined on input line 10.
+LaTeX Warning: Citation 'SDS2015' on page 7 undefined on input line 27.
+
+[7 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/Kapacitetsudn
+yttelse.png>]
+
+LaTeX Warning: Citation 'SDS2015' on page 8 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'SDS2015' on page 13 undefined on input line 15.
+LaTeX Warning: Citation 'SDS2015' on page 8 undefined on input line 33.
 
 
-LaTeX Warning: Citation 'SDS2015' on page 13 undefined on input line 16.
+LaTeX Warning: Citation 'SDS2015' on page 8 undefined on input line 35.
 
-[13 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/maxminoverbe
-laeg.png>]
-
-LaTeX Warning: Citation 'SDS2015' on page 14 undefined on input line 19.
-
-<figures/antaldage.png, id=279, 1004.75375pt x 692.5875pt>
+[8 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/maxminoverbel
+aeg.png>] <figures/antaldage.png, id=225, 1004.75375pt x 692.5875pt>
 File: figures/antaldage.png Graphic file (type png)
 
 <use figures/antaldage.png>
-Package pdftex.def Info: figures/antaldage.png used on input line 24.
+Package pdftex.def Info: figures/antaldage.png used on input line 40.
 (pdftex.def)             Requested size: 401.89438pt x 277.03009pt.
 
 
-LaTeX Warning: Citation 'SDS2015' on page 14 undefined on input line 26.
+LaTeX Warning: Citation 'SDS2015' on page 9 undefined on input line 42.
+
+
+LaTeX Warning: Citation 'Pauly1986' on page 9 undefined on input line 63.
+
+) [9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/antaldage.p
+ng (PNG copy)>] [10]
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/xFormaliteter/
+metode.tex"
+
+LaTeX Warning: Reference `BilagA' on page 11 undefined on input line 12.
 
 )
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/bProblemanalys
-e/Problemformulering.tex") [14 <C:/Users/Linette Helena Pouls/Documents/GitHub/
-ST5405/figures/antaldage.png (PNG copy)>]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/problemloesning.tex" [15]
-
-LaTeX Warning: Citation 'Bames2015' on page 16 undefined on input line 4.
-
-)
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/praeoperation.tex"
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 16 undefined on input line 6.
-
-
-[16
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/vpraediktiv/pr
+aediktivmodellering.tex" [11
 
 ]
 
-LaTeX Warning: Citation 'Kehlet2001' on page 17 undefined on input line 10.
+LaTeX Warning: Reference `bilagB, bilagC' on page 12 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'Janssen2002' on page 17 undefined on input line 10.
 
-<figures/alderogindlaeg.png, id=300, 1166.3575pt x 533.995pt>
-File: figures/alderogindlaeg.png Graphic file (type png)
+LaTeX Warning: Reference `patientpar' on page 12 undefined on input line 2.
 
-<use figures/alderogindlaeg.png>
-Package pdftex.def Info: figures/alderogindlaeg.png used on input line 16.
-(pdftex.def)             Requested size: 349.90994pt x 160.19974pt.
- [17 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/alderogindl
-aeg.png>]
 
-LaTeX Warning: Citation 'Ermonds2004' on page 18 undefined on input line 53.
+LaTeX Warning: Citation 'Kuhn2013' on page 12 undefined on input line 6.
 
 
-LaTeX Warning: Citation 'Nordjylland2014' on page 18 undefined on input line 53
-.
+LaTeX Warning: Citation 'Hastie2008' on page 12 undefined on input line 9.
 
-<figures/BMIogindlaeg.png, id=313, 1124.2pt x 411.5375pt>
-File: figures/BMIogindlaeg.png Graphic file (type png)
+[12
 
-<use figures/BMIogindlaeg.png>
-Package pdftex.def Info: figures/BMIogindlaeg.png used on input line 58.
-(pdftex.def)             Requested size: 393.47589pt x 144.04028pt.
- [18]
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 19 undefined on input line 90
-.
-
-[19 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/BMIogindlaeg
-.png>] <figures/rygerogindlaeg.png, id=330, 1151.30125pt x 458.71375pt>
-File: figures/rygerogindlaeg.png Graphic file (type png)
-
-<use figures/rygerogindlaeg.png>
-Package pdftex.def Info: figures/rygerogindlaeg.png used on input line 96.
-(pdftex.def)             Requested size: 402.96149pt x 160.55222pt.
- [20 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/rygerogindl
-aeg.png>]
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 21 undefined on input line 12
-5.
-
-<figures/alkohologindlaeg.png, id=342, 1091.07625pt x 464.73625pt>
-File: figures/alkohologindlaeg.png Graphic file (type png)
-
-<use figures/alkohologindlaeg.png>
-Package pdftex.def Info: figures/alkohologindlaeg.png used on input line 131.
-(pdftex.def)             Requested size: 436.42278pt x 185.8912pt.
-
-Overfull \hbox (10.42278pt too wide) in paragraph at lines 131--133
- [][] 
- []
-
-
-LaTeX Warning: Citation 'Sundhedsstyrelsen2016' on page 21 undefined on input l
-ine 138.
-
-
-Overfull \hbox (1.6887pt too wide) in paragraph at lines 137--139
-\T1/cmr/m/n/12 gen-stan-de for kvin-der og 14 gen-stan-de for mænd om ugen [[]
- []
-
-[21 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/alkohologind
-laeg.png>] <figures/diabetesogindlaeg.png, id=357, 1142.2675pt x 474.77374pt>
-File: figures/diabetesogindlaeg.png Graphic file (type png)
-
-<use figures/diabetesogindlaeg.png>
-Package pdftex.def Info: figures/diabetesogindlaeg.png used on input line 165.
-(pdftex.def)             Requested size: 285.56618pt x 118.69315pt.
- [22 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/diabetesogi
-ndlaeg.png>]
-<figures/operaogindlaeg.png, id=369, 840.13875pt x 483.30562pt>
-File: figures/operaogindlaeg.png Graphic file (type png)
-
-<use figures/operaogindlaeg.png>
-Package pdftex.def Info: figures/operaogindlaeg.png used on input line 199.
-(pdftex.def)             Requested size: 420.06834pt x 241.65222pt.
- [23 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/operaogindl
-aeg.png>])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/postoperation.tex" [24]
-<figures/opindlaeg.png, id=390, 1140.26pt x 413.545pt>
-File: figures/opindlaeg.png Graphic file (type png)
-
-<use figures/opindlaeg.png>
-Package pdftex.def Info: figures/opindlaeg.png used on input line 11.
-(pdftex.def)             Requested size: 399.09698pt x 144.7429pt.
-
-Overfull \hbox (28.28896pt too wide) in paragraph at lines 33--35
-\T1/cmr/m/n/12 ope-ra-tions-va-rig-he-den, hvor-ved der frem-går en sta-ti-stis
-k sam-men-hæng mel-lem indlæggelse-
- []
-
-
-LaTeX Warning: Citation 'Nordjylland2014' on page 25 undefined on input line 37
-.
-
-<figures/traeningindlaeg.png, id=396, 1088.065pt x 463.7325pt>
-File: figures/traeningindlaeg.png Graphic file (type png)
-
-<use figures/traeningindlaeg.png>
-Package pdftex.def Info: figures/traeningindlaeg.png used on input line 42.
-(pdftex.def)             Requested size: 380.82846pt x 162.30879pt.
- [25 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/opindlaeg.p
-ng>]
-Overfull \hbox (20.3002pt too wide) in paragraph at lines 55--61
- [][] 
- []
-
-[26 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/traeningindl
-aeg.png>])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/praediktivModel.tex"
-
-LaTeX Warning: Citation 'Kuhn2013' on page 27 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Hastie2008' on page 27 undefined on input line 7.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-LaTeX Warning: Citation 'Sheskin2000' on page 27 undefined on input line 10.
-
-
-Overfull \hbox (7.37296pt too wide) in paragraph at lines 9--11
-\T1/cmr/m/n/12 Prædiktiv mo-del-le-ring kan op-de-les i de to ka-te-go-ri-er: p
-a-ra-me-trisk og ikke-parametrisk.
- []
-
-
-Overfull \hbox (3.52135pt too wide) in paragraph at lines 9--11
-\T1/cmr/m/n/12 Pa-ra-me-trisk an-ven-des, når samt-li-ge pa-ra-me-tre er kend-t
-e, hvor-i-mod ikke-parametriske
- []
-
-
-LaTeX Warning: Citation 'MathWorks2016' on page 27 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'DIKU2010' on page 27 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Brownlee2013' on page 27 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Brownlee2013' on page 27 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 27 undefined on input line 16.
-
-<figures/praediktivmodel.png, id=417, 600.2425pt x 188.705pt>
-File: figures/praediktivmodel.png Graphic file (type png)
-
-<use figures/praediktivmodel.png>
-Package pdftex.def Info: figures/praediktivmodel.png used on input line 22.
-(pdftex.def)             Requested size: 438.17339pt x 137.7535pt.
-
-Overfull \hbox (12.17339pt too wide) in paragraph at lines 22--24
- [][] 
- []
-
-[27])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/behandlingafdata.tex"
-
-LaTeX Warning: Citation 'Kuhn2013' on page 28 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 28 undefined on input line 16.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-
-LaTeX Warning: Citation 'Rowan2007' on page 28 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'Rowan2007' on page 28 undefined on input line 23.
-
-[28 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/praediktivmo
-del.png>]
-
-LaTeX Warning: Citation 'Kuhn2013' on page 29 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Saar2007' on page 29 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 29 undefined on input line 35.
-
+]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 23.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/eProblemloesni
-ng/machinelearning.tex" [29]
-
-LaTeX Warning: Citation 'DIKU2010' on page 30 undefined on input line 2.
-
-<figures/machinelearning.png, id=439, 502.87875pt x 190.7125pt>
-File: figures/machinelearning.png Graphic file (type png)
-
-<use figures/machinelearning.png>
-Package pdftex.def Info: figures/machinelearning.png used on input line 12.
-(pdftex.def)             Requested size: 402.30354pt x 152.57019pt.
+Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+line 23.
 
 
-LaTeX Warning: Citation 'DIKU2010' on page 30 undefined on input line 14.
+LaTeX Warning: Citation 'Kuhn2013' on page 13 undefined on input line 26.
 
-
-LaTeX Warning: Citation 'DIKU2010' on page 30 undefined on input line 19.
-
-[30 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/machinelearn
-ing.png>]
-
-LaTeX Warning: Citation 'DIKU2010' on page 31 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 31 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'DIKU2010' on page 31 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 31 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 31 undefined on input line 34.
-
-<figures/xval.png, id=448, 367.3725pt x 328.22626pt>
-File: figures/xval.png Graphic file (type png)
- <use figures/xval.png>
-Package pdftex.def Info: figures/xval.png used on input line 40.
-(pdftex.def)             Requested size: 257.15898pt x 229.7568pt.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 31 undefined on input line 42.
-
-[31]
-
-LaTeX Warning: Citation 'Kuhn2013' on page 32 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 32 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'DIKU2010' on page 32 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'DIKU2010' on page 32 undefined on input line 54.
-
-<figures/genfejl.png, id=457, 456.70625pt x 393.47pt>
-File: figures/genfejl.png Graphic file (type png)
-
-<use figures/genfejl.png>
-Package pdftex.def Info: figures/genfejl.png used on input line 60.
-(pdftex.def)             Requested size: 365.36548pt x 314.77641pt.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 32 undefined on input line 62.
-
-[32 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/xval.png>]
-
-LaTeX Warning: Citation 'DIKU2010' on page 33 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'Kuhn2013' on page 33 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'DIKU2010' on page 33 undefined on input line 68.
-
-) [33 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST5405/figures/genfejl.pn
-g>]
+) [13]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/fSyntese/disku
 ssion.tex"
 
-LaTeX Warning: Reference `bilagC, bilagD' on page 34 undefined on input line 11
+LaTeX Warning: Reference `praeop' on page 14 undefined on input line 4.
+
+
+LaTeX Warning: Reference `postop' on page 14 undefined on input line 4.
+
+
+LaTeX Warning: Reference `bilagC, bilagD' on page 14 undefined on input line 11
 .
 
 
-LaTeX Warning: Reference `bilagC' on page 34 undefined on input line 15.
+LaTeX Warning: Reference `bilagC' on page 14 undefined on input line 15.
 
 
-LaTeX Warning: Reference `bilagC' on page 34 undefined on input line 15.
+LaTeX Warning: Reference `bilagC' on page 14 undefined on input line 15.
 
-[34
+[14
 
 ]
 
-LaTeX Warning: Reference `patsik, bilagC' on page 35 undefined on input line 18
+LaTeX Warning: Reference `patsik, bilagC' on page 15 undefined on input line 18
 .
 
 )
 
-LaTeX Warning: Empty bibliography on input line 71.
+LaTeX Warning: Empty bibliography on input line 75.
 
-[35] [36
+[15] [16
 
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/yBilag/intervi
-ewskabelon.tex" [37
+ewskabelon.tex" [17
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
@@ -2434,16 +2111,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\contents/yBilag/intervi
-ewlaegesek.tex" [38] [39]) [40]
+ewlaegesek.tex" [18] [19]) [20]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST5405\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B2537051F135F5EB49519FD94BFE1261;1907.
+(rerunfilecheck)             Checksum: 4AFA1323F7B8C10E35182BAFDD3D7524;1727.
 
 
 LaTeX Warning: There were undefined references.
@@ -2454,39 +2131,40 @@ Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 29357 strings out of 493921
- 522406 string characters out of 3144831
- 923475 words of memory out of 3000000
- 32036 multiletter control sequences out of 15000+200000
- 31502 words of font info for 91 fonts, out of 3000000 for 9000
+ 29204 strings out of 493921
+ 518132 string characters out of 3144831
+ 912062 words of memory out of 3000000
+ 31969 multiletter control sequences out of 15000+200000
+ 36021 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,22n,78p,1886b,1381s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/cm-super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sfrm2488.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfti0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
-bkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb
->
-Output written on main.pdf (44 pages, 997935 bytes).
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
+m-super/sfrm2488.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
+uper/sfss1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfti0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
+fti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb>
+Output written on main.pdf (24 pages, 499670 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
