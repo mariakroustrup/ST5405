@@ -1,0 +1,30 @@
+\chapter{Prædiktiv modellering}
+OA planlægger på nuværende tidspunkt elektive patienter ud fra erfaringer og kategorisering af patienter jf. bilag \ref{bilagB, bilagC}. Indlæggelsesvarigheden vurderes bl.a. på baggrund af patientens demografi og livsstil som beskrevet i afsnit \ref{patientpar}. For at kunne planlægge elektive patienter bedre og derved mindske ventetiden, som ønsket ift. handleplanen år 2017 kan en løsning være at estimere indlæggelsesvarigheden. En mulig teknologi til bedre at estimere indlæggelsesvarigheden for patienter, og dermed bedre planlægning af disse, kan være at anvende en prædiktiv model. 
+
+
+\section{Prædiktiv model} \label{praemodel}
+En prædiktiv model anvender tidligere datamønstre til at forudsige fremtidige hændelser på baggrund af algoritmer. Det er derved muligt at kvantificere forudsigelsen ift. fremtidig data\cite{Kuhn2013}. Ligeledes kan en prædiktiv model være behandle data af en kompleks størrelse, hvilket kan prædiktere ikke tidligere kendte sammenhænge.  
+
+
+I sundhedssektoren er det muligt at prædiktere forskellige former for hændelser og forløb. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, livsstil samt kliniske målinger\cite{Hastie2008}. Det ses derfor muligt at anvende teknologien i en anden sundhedsfaglig kontekst som et redskab til prædiktion af patienters indlæggelsesvarighed.
+
+
+Ved estimering af indlæggelsesvarigheden kan det være muligt at planlægge elektive patienter ud fra flere parametre og sammenhænge end sundhedspersonalet vurderer ud fra i dag. Prædiktiv modellering kan derfor være et muligt redskab til at planlægge aktiviteten ud fra kapaciteten. Dette vil i praksis betyde, at elektive patienter kan planlægges ud fra tilgængeligt sundhedspersonale. 
+
+
+\section{Implementering af prædiktiv model}
+Den prædiktive model skal, som nævnt i afsnit \ref{praemodel}, anvendes som et redskab til planlægning af patienter. Derfor bør teknologien anvendes i forbindelse med indkaldelse af patienter til operation. Som tidligere nævnt i afsnit \ref{book} er lægesekretæren ansvarlig for indkaldelse af patienter, hvorfor redskabet er tilegnet dette personale. Da den prædiktive model kun er et redskab, bør estimeringen af indlæggelsesvarigheden understøttes af den nuværende metode. Redskabet skal derfor holdes op mod de erfaringer og den kategorisering der allerede anvendes på OA.
+
+
+\subsection{Udfordringer ved en prædiktiv model}
+Implementering af en prædiktiv model kan medføre udfordringer ift. indsamling af data og sundhedspersonalets arbejdsopgaver. En prædiktiv model vil medfører forandringer i arbejdsrutiner, da den nuværende metode skal sammenholdes med den estimerede indlæggelsesvarighed. Dette vil både kunne medføre ændringer i arbejdsrutiner for læger samt lægesekretærer, da samarbejdet mellem sundhedspersonalet bliver nødvendigt ift. planlægning af patienter. 
+
+
+Som tidligere nævnt i afsnit \ref{book} indkalder lægesekretæren i forvejen patienter ud fra flere faktorer, herunder patientens ønsker, tilgængelige kirurger samt kapacitet \fxnote{måske flere efter dette afsnit er skrevet færdigt}. Dette vil i sammenhæng med en prædiktiv model medfører en højere kompleksitet af planlægningen af patienter. Ligeledes ændres arbejdsforholdene for læger på OA  ift. at skulle medtage estimeringen fra den prædiktive model i deres vurderinger af indlæggelsesvarigheden. 
+
+
+Da en prædiktiv model finder sammenhængen mellem data, som beskrevet i afsnit \ref{praemodel}, er det nødvendigt at data er angivet efter samme retningslinjer, således at data er homogent\cite{Kuhn2013}. Dette kan medvirke til at indsamling af data kan forløbe automatisk fra patientjournaler og derfor ikke være en yderligere belastning for sundhedspersonalet. Dette stiller nogle krav til sundhedspersonalet om indskrivning af data i patientjournaler. \fxnote{måske et eksempel på en fejl som kan løses ved at opstille krav til indskrivningen af data}
+
+
+\section{Effekter af en prædiktiv model}
+En prædiktiv model vil kunne medvirke til at elektive patienter planlægges ud fra tilgængeligt sundhedspersonale som beskrevet i afsnit \ref{praemodel}. Dette kan medvirke til bedre udnyttelse af kapaciteten, da antallet af patienter i højere grad vil afspejle antallet af personale. Derved kan der i højere grad opnås balance mellem aktivitet og kapacitet på OA. 
