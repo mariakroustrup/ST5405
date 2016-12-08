@@ -1,7 +1,7 @@
 
 
 \section{Metode}
-Dette projekt er udarbejdet mhp. at kunne vurdere en prædiktiv model, der har til formål at forudsige indlæggelsesvarigheden for patienter på OA. For at belyse den initierende problemstilling, undersøges det i problemanalysen, hvordan afdelingen påvirkes af ubalance i kapacitetsudnyttelsen samt, hvilken betydning handleplanen 2017 vil have for afdelingen. Denne problemanalyse leder frem til en problemformulering, der herefter leder frem til en vurdering af prædiktiv modellering. Dette vurderes ud fra en analyse af implementeringen samt betydningen af en prædiktiv model. Herefter vil problemanalysen, problemformuleringen samt vurderingen af prædiktiv model diskuteres, konkluderes og perspektiveres i en syntese. Projektet tager udgangspunkt i litteratur samt interviews af personale fra afdelingen, data fra OA og statistik. 
+Dette projekt er udarbejdet mhp. at kunne analysere en prædiktiv model, der har til formål at forudsige indlæggelsesvarigheden for patienter på OA. For at belyse den initierende problemstilling, undersøges det i problemanalysen, hvordan afdelingen påvirkes af ubalance i kapacitetsudnyttelsen samt, hvilken betydning handleplanen 2017 vil have for afdelingen. Denne problemanalyse leder frem til en problemformulering, der herefter leder frem til en analyse af prædiktiv modellering. Dette vurderes ud fra en analyse af implementeringen samt betydningen af en prædiktiv model. Herefter vil problemanalysen, problemformuleringen samt analysen af prædiktiv model diskuteres, konkluderes og perspektiveres i en syntese. Projektet tager udgangspunkt i litteratur samt interviews af personale fra afdelingen, statistik og data fra OA. 
 
 
 \subsection{Litteratursøgning}
@@ -13,10 +13,12 @@ Der er foretaget interviews af 2 sygeplejersker samt 1 lægesekretær fra OA for
 
 
 
-
 %\begin{itemize}
 %\item Vi ønsker at snakke med 3 sygeplejersker hver for sig
 %\item Vi ønsker, at sygeplejerskerne skal have arbejdet på OA i mindst 1 år.
 %\item Vi ønsker ikke, at personalet kender spørgsmålene på forhånd, da vi foretrækker en åben dialog.
 %\item\ Interviewet skal bruges til at underbygge argumenter i rapporten, og personalet vil derfor muligvis blive citeret.
 %\end{itemize}
+
+\subsection{Behandling af data}
+Aalborg Universitetshospital har i et tidligere projekt indsamlet data fra 970 hospitalsindlæggelser på OA. Dette er indsamlet fra Clinical Suite i perioden 1. august til 31 oktober år 2014. Datasættet er indsamlet med formål om at kunne udvikle en prædiktiv model, der kan estimere indlæggelsesvarigheden for patienterne på OA. Datasættet beskriver forskellige parametre for patienterne. Disse er fordelt over 78 parametre, herunder demografiske- og kliniske faktorer. De 78 parametre er dog ikke udfyldt for hver enkelt patient, hvilket resulterer i flere tomme celler. Hermed er datasættet behandlet for dette i MATLAB 2015b, hvor tomme celler er fjernet og udvalgte kolonner er herefter samlet i et nyt sæt. Denne databehandling har medført, at data opsamlet fra 970 hospitalsindlæggelser er reduceret til 472. I rapporten anvendes datasættet med 472 hospitalsindlæggelser på OA til udarbejdelse af grafer i MATLAB. 
