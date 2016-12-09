@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {danish}
 \contentsline {chapter}{\chapternumberline {1}Indledning}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Initierende problemstilling}{2}{section.1.1}
+\contentsline {section}{\numberline {1.1}Initierende problemstilling}{3}{section.1.1}
 \contentsline {chapter}{\chapternumberline {2}Problemanalyse}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Ortop\IeC {\ae }dkirurgisk afdeling p\IeC {\r a} Aalborg Universitetshospital}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Personalets arbejdsgang}{4}{subsection.2.1.1}
@@ -12,23 +12,26 @@
 \contentsline {section}{\numberline {2.2}Kapacitetudnyttelse}{6}{section.2.2}
 \contentsline {subsubsection}{Bel\IeC {\ae }gningsgrad p\IeC {\r a} ortop\IeC {\ae }dkirurgisk afdeling}{7}{section*.8}
 \contentsline {chapter}{\chapternumberline {3}Metode}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Metode}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Litteraturs\IeC {\o }gning}{10}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Interview}{10}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Behandling af data}{11}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.0.1}Litteraturs\IeC {\o }gning}{10}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Interview}{10}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}Behandling af data}{11}{subsection.3.0.3}
 \contentsline {chapter}{\chapternumberline {4}Analyse af pr\IeC {\ae }diktiv model}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pr\IeC {\ae }diktiv model}{12}{section.4.1}
 \contentsline {section}{\numberline {4.2}Implementering af pr\IeC {\ae }diktiv model}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}\IeC {\AE }ndringer i arbejdsrutine}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Opstartsfase}{13}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}\IeC {\AE }ndringer i patientjournaler}{13}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Effekter af en pr\IeC {\ae }diktiv model}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.3}\IeC {\AE }ndringer i arbejdsrutine}{13}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Effekter af en pr\IeC {\ae }diktiv model}{14}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Sundhedspersonale}{14}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Patienter}{14}{subsection.4.3.2}
 \contentsline {chapter}{\chapternumberline {5}Syntese}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Diskussion}{15}{section.5.1}
-\contentsline {appendix}{\chapternumberline {A}Bilag A}{17}{chapter.A}
-\contentsline {section}{\numberline {A.1}Interview skabelon}{17}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Interviewet med sygeplejersker}{17}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Interview med l\IeC {\ae }gesekret\IeC {\ae }r}{18}{subsection.A.1.2}
-\contentsline {section}{\numberline {A.2}Interview med sygeplejersker fra 01}{18}{section.A.2}
-\contentsline {section}{\numberline {A.3}Interview med l\IeC {\ae }gesekret\IeC {\ae }r}{24}{section.A.3}
+\contentsline {section}{\numberline {5.2}Konklusion}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Perspektivering}{16}{section.5.3}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{19}{chapter.A}
+\contentsline {section}{\numberline {A.1}Interview skabelon}{19}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Interviewet med sygeplejersker}{19}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Interview med l\IeC {\ae }gesekret\IeC {\ae }r}{20}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Sygeplejersker p\IeC {\r a} sengeafsnit 01}{20}{section.A.2}
+\contentsline {section}{\numberline {A.3}Sygeplejersker p\IeC {\r a} sengeafsnit 02}{26}{section.A.3}
+\contentsline {section}{\numberline {A.4}L\IeC {\ae }gesekret\IeC {\ae }r}{32}{section.A.4}
