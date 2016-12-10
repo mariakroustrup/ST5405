@@ -1956,24 +1956,25 @@
     <bcf:citekey order="18">SDS2015</bcf:citekey>
     <bcf:citekey order="19">SDS2015</bcf:citekey>
     <bcf:citekey order="20">SDS2015</bcf:citekey>
-    <bcf:citekey order="21">Bjerg2016</bcf:citekey>
+    <bcf:citekey order="21">SDS2015</bcf:citekey>
     <bcf:citekey order="22">Bjerg2016</bcf:citekey>
-    <bcf:citekey order="23">Danske2015</bcf:citekey>
-    <bcf:citekey order="24">Dinges2004</bcf:citekey>
-    <bcf:citekey order="25">Kjeldsen2015</bcf:citekey>
+    <bcf:citekey order="23">Bjerg2016</bcf:citekey>
+    <bcf:citekey order="24">Danske2015</bcf:citekey>
+    <bcf:citekey order="25">Dinges2004</bcf:citekey>
     <bcf:citekey order="26">Kjeldsen2015</bcf:citekey>
-    <bcf:citekey order="27">Heidmann2014</bcf:citekey>
-    <bcf:citekey order="28">Madsen2014</bcf:citekey>
+    <bcf:citekey order="27">Kjeldsen2015</bcf:citekey>
+    <bcf:citekey order="28">Heidmann2014</bcf:citekey>
     <bcf:citekey order="29">Madsen2014</bcf:citekey>
-    <bcf:citekey order="30">Beredskab2016</bcf:citekey>
-    <bcf:citekey order="31">Kehlet2001 Janssen2002</bcf:citekey>
-    <bcf:citekey order="32">Ermonds2004</bcf:citekey>
-    <bcf:citekey order="33">Nordjylland2014</bcf:citekey>
+    <bcf:citekey order="30">Madsen2014</bcf:citekey>
+    <bcf:citekey order="31">Beredskab2016</bcf:citekey>
+    <bcf:citekey order="32">Kehlet2001 Janssen2002</bcf:citekey>
+    <bcf:citekey order="33">Ermonds2004</bcf:citekey>
     <bcf:citekey order="34">Nordjylland2014</bcf:citekey>
-    <bcf:citekey order="35">Kuhn2013</bcf:citekey>
-    <bcf:citekey order="36">Hastie2008</bcf:citekey>
-    <bcf:citekey order="37">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="35">Nordjylland2014</bcf:citekey>
+    <bcf:citekey order="36">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="37">Hastie2008</bcf:citekey>
     <bcf:citekey order="38">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="39">Kuhn2013</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>
