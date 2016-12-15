@@ -1,14 +1,66 @@
 \chapter{Analyse af prædiktiv model}
-På nuværende tidspunkt har OA ikke et redskab, der kan forudsige indlæggelsesvarigheden mhp. at planlægge patienter.
+På nuværende tidspunkt har OA ikke et redskab, der kan forudsige indlæggelsesvarigheden mhp. at planlægge patienter. Dette kapitel analyserer, hvilken effekt et planlægningsredskab vil kunne medføre  på afdelingen. En mulig løsning til sådan et redskab kan være at udarbejde en prædiktiv model. 
 %Da der på nuværende tidspunkt ikke er et redskab til at forudsige indlæggelsesvarigheden er det ikke muligt at planlægge, hvornår der skal indkaldes elektive patienter ift. kapaciteten på OA. Sundhedspersonalet har dog en idé om, hvor længe patienterne er indlagt ift. operationstype, men dette tages ikke med i planlægningen af patienter, som beskrevet i bilag \ref{bilag01}. Dermed mangler OA et redskab til at estimere indlæggelsesvarigheden af patienter mhp. at planlægge elektive patienter. 
-En mulig løsning til dette kan være at anvende en prædiktiv model. 
 
 
 \section{Prædiktiv modellering} \label{praemodel}
-En prædiktiv model anvender tidligere data til at forudsige fremtidige hændelser i lignende data på baggrund af algoritmer. Ligeledes kan nogle typer af prædiktive modeller behandle data af en kompleks størrelse, hvilket kan muliggøre prædiktering af ukendte sammenhænge. Dette medvirker til, at flere parametre kan indgå i modellen.\cite{Kuhn2013}
+En prædiktiv model er en statistisk model, der kan forudsige fremtidige hændelser. En sådan en model anvender tidligere data til forudsigelse af hændelser i lignende data på baggrund af en algoritme. Nogle typer af prædiktive modeller, eks. machine learning, kan behandle data af komplekse størrelser, hvilket kan skabe ny information om ukendte eller skjulte sammenhænge. Dette kan muliggøre, at hidtil oversete mønstre mellem parametre, kan benyttes til prædiktion. 
 
 
-I sundhedssektoren anvendes prædiktive modeller på nuværende tidspunkt til at prædiktere hændelser og forløb. Dette kan eksempelvis være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, livsstil samt kliniske faktorer\cite{Hastie2008}. Det ses derfor muligt at anvende en lignende model i en anden sundhedsfaglig kontekst.
+------------------------------------------------------------------------------------------------------
+
+%Dette medvirker til, at flere parametre kan indgå i modellen.\cite{Kuhn2013}
+
+------------------------------------------------------------------------------------------------------
+
+På nuværende tidspunkt anvendes prædiktive modeller flere steder i samfundet. De benyttes bl.a. til forudsigelse af aktiekurser eller forslag til film på Netflix ud fra, hvilken film, der tidligere er set på dette abonnement.\cite{DIKU2012}
+De prædiktive modeller benyttes ligeledes i sundhedssektoren, hvor de bl.a. benyttes som diagnostik modeller, der ud fra symptomer forsøger at diagnosticerer patienten.\cite{Kuhn2013} Derudover kan det eks. være en forudsigelse om, hvorvidt en patient, indlagt med hjertestop, har risiko for endnu et hjertestop, hvoraf vurderingen f.eks. baseres på demografi, livsstil samt kliniske faktorer\cite{Hastie2008}. 
+------------------------------------------------------------------------------------------------------
+
+Dog kan prædiktive modeller ligeledes prædiktere forkert, hvilket eks. kan have konsekvenser ift. diagnostik modeller, hvorved patienter vil opleve at få tilgivet en forkert diagnose og i værste fald modtage en forkert behandling. Nogle af disse fejlprædikitoner kan skyldes komplekse variabler såsom menneskelig adfærd.
+
+
+“In the end, [predictive modeling] is not a substitute for intuition, but rather a
+complement”
+Simply put, neither data-driven models nor the expert relying solely on in-
+tuition will do better than a combination of the two. Secondly,
+“Traditional experts make better decisions when they are provided with the
+results of statistical prediction. Those who cling to the authority of traditional experts tend to embrace the idea of combining the two forms of ‘knowledge’ by
+giving the experts ‘statistical support’ . . . Humans usually make better predic-
+tions when they are provided with the results of statistical prediction.”
+In some cases, such as spam detection, it may be acceptable to let computers
+do most of the thinking. When the consequences are more serious, such as
+predicting patient response, a combined approach often leads to better results.
+
+
+
+
+“Predictive modeling, the process by which a
+model is created or chosen to try to best predict the probability of an outcome
+has lost credibility as a forecasting tool.” He hypothesizes that predictive
+models regularly fail because they do not account for complex variables such
+as human behavior. Indeed, our abilities to predict or make decisions are
+constrained by our present and past knowledge and are affected by factors
+that we have not considered. These realities are limits of any model, yet these
+realities should not prevent us from seeking to improve our process and build
+better models.
+
+
+Disse realiteter er grænser for enhver model, men disse
+realiteter bør ikke forhindre os i at søge at forbedre vores proces og bygge
+bedre modeller.
+
+
+
+
+
+
+
+
+
+TRÆNINGSSÆT!!
+
+Det ses derfor muligt at anvende en lignende model i en anden sundhedsfaglig kontekst.
 
 
 Med viden om indlæggelsesvarigheden, ud fra en prædiktiv model, kan det være muligt at anvende dette som et redskab til planlægning af elektive patienter. Ved at sammenholde parametre i aktivitet og kapacitet i den prædiktive model, er det muligt at planlægge aktiviteten ud fra kapaciteten. Dette vil i praksis betyde, at elektive patienters indlæggelse kan planlægges ud fra tilgængeligt sundhedspersonale, rum og udstyr som beskrevet i afsnit \ref{kap}. 
