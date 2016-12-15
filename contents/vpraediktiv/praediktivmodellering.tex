@@ -15,7 +15,6 @@ Med viden om indlæggelsesvarigheden, ud fra en prædiktiv model, kan det være 
 
 
 \section{Udarbejdelse}
-
 For at en prædiktiv model kan udarbejdes, er det nødvendigt at tilsidesætte data til et træningssæt. Træningssættet bruges til at udvikle modellen, hvorefter denne testes på det resterende data, kaldet testsættet, for således at måle præcisionen af modellen. Af \figref{traenings} illustreres opdelingen af træningssæt og testsæt.
 
 \begin{figure}[H]
@@ -41,62 +40,17 @@ Det kan således være nødvendigt at tilpasse modellen yderligere i en periode 
 
 Modellen bør på OA anvendes i forbindelse med planlægning af patienter. Som tidligere nævnt i afsnit \ref{book} er lægesekretæren ansvarlig for planlægning af patienter, hvorfor det forventes, at redskabet primært er tilegnet dette personale. Det anses detsuden fordelagtigt, at fagpersoner, såsom læger eller sygeplejersker, ligeledes får indflydelse på det endelige estimat af indlæggelsesvarigheden, da der således kan tages højde for patienters individuelle ønsker og behov.
 
-
-
-
-\subsection{Brug af databaser}
-Da en prædiktiv model finder sammenhænge mellem data, som beskrevet i afsnit \ref{praemodel}, er det nødvendigt, at data er angivet homogent således modellen kan sammenholde data\cite{Kuhn2013}. 
-%Det  kan dermed være hensigtsmæssigt at indsamlingen af data kan forløbe automatisk fra patientjournaler og derfor ikke være en yderligere belastning for sundhedspersonalet. 
-Dette stiller, under det nuværende system, nogle krav til sundhedspersonalet om indskrivning af data i patientjournaler. Derudover kan det være hensigtsmæssigt for den prædiktive model at modtage data fra flere databaser. Disse kan eks. være patientjournaler, vagtskemaer og inventarlister.
-
-%Et eksempel på dette kan være data over kapaciteten der er til rådighed for afdelingen, således det er muligt at planlægge aktiviteten ud fra kapaciteten.
-
-
-%\subsection{Ændringer i arbejdsrutiner}\label{arbjedsrut}
-%Som tidligere nævnt i afsnit \ref{book} indkalder lægesekretæren i forvejen patienter ud fra patientens ønske til operationsdag eller en specifik kirurg. Ved at anvende et redskab, som en prædiktiv model, muliggøres det, at lægesekretæren kender til den estimerede indlæggelsesvarighed for patienten inden operationen har fundet sted. 
-
+Derudover kan det være hensigtsmæssigt for den prædiktive model at udnytte data fra flere databaser. Disse kan eks. være patientjournaler, personalets vagtskemaer og inventarlister.
 
 \section{Effekt af en prædiktiv model}
-En prædiktiv model muliggør angiveligt en bedre planlægning, da lægesekretæren har et estimat af patienternes indlæggelsesvarighed.
-Det kan derfor være muligt på forhånd at udskyde elektive patienter, hvis der i perioder er udsigt til kapacitetsmangel.
-Derudover kan det være muligt at indkalde elektive patienter i perioder, hvor afdelingen har mere kapacitet end aktivitet. 
-Dette forventes at medføre en balance i kapacitetsudnyttelsen, hvilket kan have en positiv indvirkning for sundhedspersonale og patienter. 
-
-%En prædiktiv model vil kunne medvirke til, at elektive patienter planlægges ud fra tilgængeligt sundhedspersonale. Dette kan medvirke til bedre udnyttelse af kapaciteten, da antallet af patienter i højere grad vil afspejle antallet af personale til rådighed. 
-%Det kan derved være muligt at opnå balance mellem aktivitet og kapacitet på OA. 
+En prædiktiv model, der giver lægesekretæren et estimat af patienternes indlæggelsesvarighed, kan muliggøre, at elektive patienter kan udskydes, hvis der er udsigt til kapacitetsmangel. Ligeledes er det omvendt muligt at indkalde patienter i perioder, hvor afdelingen har mere kapacitet end aktivitet. Dette forventes at resultere i bedre balance i kapacitetsudnyttelsen, hvilket kan have en positiv indvirkning for sundhedspersonales arbejdsvilkår og patienters sikkerhed. 
 
 
+\subsection{Arbejdsvilkår} \label{sundper}
+Sundhedspersonalets arbejdsvilkår forventes at forbedres ved implementering af en prædiktiv model. Et redskab til planlægning antages at øge strukturen i OA's belægning ved at udnytte de disponible sengepladser samt personalets arbejdskraft på afdelingen. Den personaleindkaldelsesansvarlige kan med dette redskab underrette og indkalde sundhedspersonale før kapacitetsmangel opstår på afdelingen.
 
-\subsection{Sundhedspersonale} \label{sundper}
-%Da implementeringen af en prædiktiv model muliggør planlægning af elektive patienter ud fra kapaciteten, herunder tilgængeligt sundhedspersonale 
-forventes det, at sundhedspersonalet får en mere stabil arbejdsbyrde. 
-
-Der skal dog tages forbehold for akut patient belastning. (effekten kan dog variere efter akut patientbelastning)
-
-\fxnote{Perspektivering: På nuværende tidspunkt varetager to sygeplejersker to til otte patienter fordelt mellem sig, som nævnt i afsnit \ref{arb_per}. Denne fordeling forventes at kunne planlægges ud fra antallet af personale ift. antallet af patienter, hvormed arbejdsbyrden tilpasses.}
-
-%Med den prædiktive model kan det, som tidligere nævnt i afsnit \ref{arbejdsrut}, være muligt at aflyse og dermed udsætte patienters operationer, hvis der i perioder er udsigt til kapacitetsmangel. 
-
-Ligeledes kan sundhedspersonalet underrettes og indkaldes før kapacitetsmanglen opstår.
+Det vurderes derudover, at personalet vil opleve mindre overarbejde, hvis elektive patienter planlægges ud fra indlæggelsesvarigheden og med forbehold for de akutte patienter. Foruden mindsket overarbejde, vil sundhedspersonalet i flere tilfælde have mulighed for at afholde de indlagte pauser på en arbejdsdag. Ved bedre planlægning af patienter vil det angiveligt ikke være nødvendigt at indkalde sundhedspersonale fra vikarbureau så ofte. 
 
 
-Ved planlægning reduceres risikoen for overarbejde for personalet, da planlægning af patienter forventes at give en bedre struktur og overblik. Det kan derfor være med til at afvikle perioder med kapacitetsmangel.\fxnote{"Kig på den anden af sagen" - Linette}
-
-
-\subsection{Patienter}
-%En prædiktiv model vil kunne medføre en mere stabil kapacitetsudnyttelse, da aktiviteten planlægges ud fra kapaciteten. 
-Hensigten med modellen er at planlægge antallet af patienter ud fra kapaciteten, hvorved det forventes, at patientplejen vil være mere stabil. En mere stabil patientpleje kan medvirke til en bedre patientsikkerhed. 
-
-\fxnote{revurder: Ydermere vil reduceringen af overarbejde for personalet medvirke til en bedre kvalitet af behandlingen af patienterne.}
-
-
-Redskaber til planlægning af patienter kan medvirke til, at OA kan forebygge, at patienter placeres på gangarealer, andre afsnit og matrikler, hvilket medvirker til at bibeholde patienters privatliv, som nævnt i afsnit \ref{patsik}. Dertil reduceres risikoen for tilkaldelse af brandvagter i forbindelse med kapacitetsmangel. 
-%Dette kan udover sikkerhed på afdelingen medføre besparelser for OA. 
-
-
-
-
-
-
-
-
+\subsection{Patientsikkerhed}
+Stabile arbejdsvilkår for sundhedspersonalet kan ligeledes medvirke til en bedre kvalitet af behandling af patienter og derved øge patientsikkerheden. Redskaber til planlægning af patienter kan medvirke til, at OA kan forebygge, at patienter placeres på gangarealer, andre afsnit og matrikler, hvilket medvirker til at bibeholde patienters privatliv, som nævnt i afsnit \ref{patsik}. Dertil reduceres risikoen for tilkaldelse af brandvagter i forbindelse med kapacitetsmangel. 
