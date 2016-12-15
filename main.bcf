@@ -2246,6 +2246,10 @@
     <bcf:citekey order="31">Janssen2002</bcf:citekey>
     <bcf:citekey order="32">Edmonds2004</bcf:citekey>
     <bcf:citekey order="33">Nordjylland2014</bcf:citekey>
+    <bcf:citekey order="34">DIKU2012</bcf:citekey>
+    <bcf:citekey order="35">Kuhn2013</bcf:citekey>
+    <bcf:citekey order="36">Hastie2008</bcf:citekey>
+    <bcf:citekey order="37">Kuhn2013</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

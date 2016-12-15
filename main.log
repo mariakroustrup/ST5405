@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  15 DEC 2016 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  15 DEC 2016 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2299,7 +2299,156 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 16.
+) (./contents/vpraediktiv/praediktivmodellering.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+ [14]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 6.
+
+
+LaTeX Warning: Citation 'DIKU2012' on page 15 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Kuhn2013' on page 15 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Hastie2008' on page 15 undefined on input line 17.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 34.
+[15
+
+]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 69.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 70.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+line 70.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 77.
+
+
+LaTeX Warning: Reference `praemodel' on page 16 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'Kuhn2013' on page 16 undefined on input line 78.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 81.
+[16]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 116.
+)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 72.
+ [17]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 72.
+ (./contents/fSyntese/diskussion.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+
+LaTeX Warning: Reference `sten' on page 18 undefined on input line 14.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 15.
+[18
+
+]) (./contents/fSyntese/konklusion.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+)
+(./contents/fSyntese/perspektivering.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 4.
+ [19])
 
 LaTeX Warning: Empty bibliography on input line 79.
 
@@ -2311,7 +2460,245 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 80.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 80.
-[14]
+[20] (./contents/yBilag/interviewskabelon.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 25.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+) (./contents/yBilag/interviewlaegesek.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+ [21
+
+
+]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+
+
+LaTeX Warning: Reference `bilagO1' on page 22 undefined on input line 4.
+
+
+LaTeX Warning: Reference `bilagO2' on page 22 undefined on input line 4.
+
+
+LaTeX Warning: Reference `bilagsek' on page 22 undefined on input line 4.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--247
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+[22
+
+]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+ [23]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+ [24]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+ [25]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+ [26]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 247.
+ [27] (./contents/yBilag/interviewsyge02.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--213
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+[28]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+ [29]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+ [30]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+ [31]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+ [32]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
+ [33]) (./contents/yBilag/interviewleagesek1.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 251.
+
+[34]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 251.
+ [35]) (./contents/yBilag/udtalelse.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+ [36]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 88.
+ [37
+
+]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2320,9 +2707,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DE12B1BA5855D5499EAF6C8F4812CAC1;1414.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DE12B1BA5855D5499EAF6C8F4812CAC1;1414
+(rerunfilecheck)             After:  BFDE3DE35FC9DB049E2FCE2A6E71E4D2;3110.
 
 LaTeX Warning: There were undefined references.
 
@@ -2340,13 +2733,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 30074 strings out of 493089
- 533508 string characters out of 6134843
- 991184 words of memory out of 5000000
- 33109 multiletter control sequences out of 15000+600000
- 31502 words of font info for 91 fonts, out of 8000000 for 9000
+ 30226 strings out of 493089
+ 536669 string characters out of 6134843
+ 1019174 words of memory out of 5000000
+ 33171 multiletter control sequences out of 15000+600000
+ 36021 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,22n,78p,10423b,1567s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,22n,78p,10423b,1675s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
@@ -2358,19 +2751,22 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/urw/bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/bo
-okman/ubkl8a.pfb>
-Output written on main.pdf (18 pages, 472510 bytes).
+ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
+bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/bookman/
+ubkl8a.pfb>
+Output written on main.pdf (41 pages, 599469 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
